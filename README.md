@@ -41,7 +41,7 @@ Add WeChat | 添加微信: **1796060717**
 | [call-center-ai](https://github.com/microsoft/call-center-ai) | ![GitHub Repo stars](https://badgen.net/github/stars/microsoft/call-center-ai) | Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number! | 基于 Azure 和 OpenAI GPT 的 AI 驱动呼叫中心解决方案。|
 | [Vocode Core](https://github.com/vocodedev/vocode-core) | ![GitHub Repo stars](https://badgen.net/github/stars/vocodedev/vocode-core) | Build voice-based LLM agents. Modular and open source. Real-time streaming conversations. | 支持电话、Zoom 等场景部署 |
 | [Bolna](https://github.com/bolna-ai/bolna) | ![GitHub Repo stars](https://badgen.net/github/stars/bolna-ai/bolna) | End-to-end open source production-ready voice agents platform. Build voice assistants through JSON config. | 生产就绪，支持 Twilio/Plivo |
-
+| [LLMRTC](https://github.com/llmrtc/llmrtc) | ![GitHub Repo stars](https://badgen.net/github/stars/llmrtc/llmrtc) | Open-source WebRTC orchestration SDK. Handles server-side VAD, barge-in, and multi-provider switching. | **WebRTC-based**, **Low Latency**. Infrastructure-agnostic. |
 
 ### Specialized Solutions | 专用解决方案
 
