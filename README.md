@@ -128,6 +128,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [Voicebox](https://github.com/jamiepine/voicebox) | ![GitHub Repo stars](https://badgen.net/github/stars/jamiepine/voicebox) | Local-first open-source voice cloning & synthesis studio. 5 TTS engines, 23 languages, timeline editor, REST API. Open-source ElevenLabs alternative. | ⭐ 本地优先，支持声音克隆、多轨编辑、后处理音效。[官网](https://voicebox.sh) |
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | ![GitHub Repo stars](https://badgen.net/github/stars/RVC-Boss/GPT-SoVITS) | Few-shot voice cloning TTS. High-quality synthesis. | 少样本语音克隆 |
 | [Bark](https://github.com/suno-ai/bark) | ![GitHub Repo stars](https://badgen.net/github/stars/suno-ai/bark) | Transformer-based TTS model. Generates highly realistic audio including music, sound effects. | 可生成音乐和音效 |
 | [Coqui TTS](https://github.com/coqui-ai/TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/coqui-ai/TTS) | Deep learning TTS toolkit. 1100+ pre-trained models. Voice cloning support. | ⭐ 最全面的开源 TTS 工具箱 |
