@@ -142,9 +142,9 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Azure Speech Services](https://azure.microsoft.com/products/ai-services/text-to-speech) | Microsoft TTS with neural voices. Custom voice creation, SSML support. | 神经语音，自定义音色 |
 | [Cartesia](https://cartesia.ai/) | Real-time streaming TTS. Ultra-low latency, natural intonation. | 超低延迟流式 TTS |
 | [Deepgram Aura](https://deepgram.com/aura) | Real-time text-to-speech. Conversational voice quality. | 对话式语音，低延迟 |
+| [voicetoinstrument.com](https://voicetoinstrument.com) | Convert voice to instrumental tracks using AI. Separate vocals and convert to instrument versions. | 语音转乐器音轨 |
 
 ---
-
 ## Developer Communities & Resources | 开发者社区与资源
 
 ### Communities | 社区平台
