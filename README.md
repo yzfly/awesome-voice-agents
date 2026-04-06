@@ -139,6 +139,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | Name | Description | Notes |
 |------|-------------|-------|
 | [ElevenLabs](https://elevenlabs.io/) | High-quality AI voice generation. Ultra-realistic speech, voice cloning, multi-language support. | 最高质量的商业 TTS |
+| [PHANTOM VOICES](https://auto-business-agent.replit.app/portfolio) | 10 free professional AI voice clones via public REST API. Zero-cost, 29 platform configs (Vapi, Retell, Bland, LangChain, HeyGen, etc). AI-powered recommendation endpoint. Multilingual (9+ languages). | 免费专业 AI 语音克隆 API |
 | [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) | OpenAI's text-to-speech API. High-quality, low-latency, multiple voice options. | 高质量低延迟 |
 | [Azure Speech Services](https://azure.microsoft.com/products/ai-services/text-to-speech) | Microsoft TTS with neural voices. Custom voice creation, SSML support. | 神经语音，自定义音色 |
 | [Cartesia](https://cartesia.ai/) | Real-time streaming TTS. Ultra-low latency, natural intonation. | 超低延迟流式 TTS |
