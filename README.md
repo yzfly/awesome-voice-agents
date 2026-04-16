@@ -150,6 +150,8 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 ---
 ## Developer Communities & Resources | 开发者社区与资源
 
+- [FutureAGI simulate-sdk](https://github.com/future-agi/simulate-sdk)
+
 ### Communities | 社区平台
 
 | Name | Description | Notes |
