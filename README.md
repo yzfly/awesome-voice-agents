@@ -49,6 +49,7 @@ Add WeChat | 添加微信: **1796060717**
 |------|-------|-------------|-------|
 | [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) | ![GitHub Repo stars](https://badgen.net/github/stars/bentoml/BentoVoiceAgent) | Build phone calling voice agents fully powered by open source models. Uses BentoML for deployment. | 完全基于开源模型 |
 | [LangGraph Voice Agent](https://github.com/Rajathbharadwaj/voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/Rajathbharadwaj/voice-agent) | Voice AI SDR Agent for automated sales calls. Built with LangGraph, Twilio, and OpenAI. Production-ready with call routing, objection handling, and appointment scheduling. | LangGraph 架构，销售自动化 |
+| [contractor-ai-intake-templates](https://github.com/Quirk6/contractor-ai-intake-templates) | ![GitHub Repo stars](https://badgen.net/github/stars/Quirk6/contractor-ai-intake-templates) | Open-source intake script templates (CC BY 4.0) for voice AI agents serving home-service contractors (HVAC, plumbing, electrical, roofing). Ships with safety-first ordering for fire-risk and life-safety calls, surge-handling profiles, and SMS handoff packet specs. | 承包商垂直, CC BY 4.0 |
 ---
 
 ## VAD (Voice Activity Detection) | 语音活动检测
