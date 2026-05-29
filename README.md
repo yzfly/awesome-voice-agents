@@ -6,7 +6,7 @@ Welcome to **Awesome Voice Agents**! This is a carefully curated collection of r
 
 本项目精心收录语音 AI Agent 相关的优质资源，涵盖端点检测、话轮管理、实时语音识别、语音合成等核心技术。
 
-**Maintainer | 维护者: 云中江树**
+**Maintainer | 维护者: 云中江树**（微信公众号: 云中江树）
 
 💬 **Join Voice Agent Community | 加入 Voice Agent 交流群**  
 Add WeChat | 添加微信: **1796060717**  
@@ -21,9 +21,13 @@ Add WeChat | 添加微信: **1796060717**
 - [Turn Detection & Endpointing | 话轮检测与端点检测](#turn-detection--endpointing--话轮检测与端点检测)
 - [STT (Speech-to-Text) | 语音转文本](#stt-speech-to-text--语音转文本)
 - [TTS (Text-to-Speech) | 文本转语音](#tts-text-to-speech--文本转语音)
+- [End-to-End Speech Models | 端到端语音模型](#end-to-end-speech-models--端到端语音模型)
 - [Developer Communities & Resources | 开发者社区与资源](#developer-communities--resources--开发者社区与资源)
 - [Learning Resources | 学习资源](#learning-resources--学习资源)
+- [Related Awesome Lists | 相关资源](#related-awesome-lists--相关资源)
 - [Contributing | 贡献指南](#contributing--贡献指南)
+- [License | 许可证](#license--许可证)
+- [Acknowledgments | 致谢](#acknowledgments--致谢)
 
 ---
 
@@ -42,6 +46,7 @@ Add WeChat | 添加微信: **1796060717**
 | [Vocode Core](https://github.com/vocodedev/vocode-core) | ![GitHub Repo stars](https://badgen.net/github/stars/vocodedev/vocode-core) | Build voice-based LLM agents. Modular and open source. Real-time streaming conversations. | 支持电话、Zoom 等场景部署 |
 | [Bolna](https://github.com/bolna-ai/bolna) | ![GitHub Repo stars](https://badgen.net/github/stars/bolna-ai/bolna) | End-to-end open source production-ready voice agents platform. Build voice assistants through JSON config. | 生产就绪，支持 Twilio/Plivo |
 | [LLMRTC](https://github.com/llmrtc/llmrtc) | ![GitHub Repo stars](https://badgen.net/github/stars/llmrtc/llmrtc) | Open-source WebRTC orchestration SDK. Handles server-side VAD, barge-in, and multi-provider switching. | **WebRTC-based**, **Low Latency**. Infrastructure-agnostic. |
+| [Ultravox](https://github.com/fixie-ai/ultravox) | ![GitHub Repo stars](https://badgen.net/github/stars/fixie-ai/ultravox) | Fast multimodal LLM for real-time voice. Understands speech directly without a separate STT step, low time-to-first-token. | 直接理解语音，无需独立 STT，首字延迟低 |
 
 ### Specialized Solutions | 专用解决方案
 
@@ -109,7 +114,15 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Whisper Real Time](https://github.com/davabase/whisper_real_time) | ![GitHub Repo stars](https://badgen.net/github/stars/davabase/whisper_real_time) | Real time transcription with OpenAI Whisper. Continuously records and concatenates audio. | 简单易用的实时转录演示 |
 | [VoiceStreamAI](https://github.com/alesaccoia/VoiceStreamAI) | ![GitHub Repo stars](https://badgen.net/github/stars/alesaccoia/VoiceStreamAI) | Near-realtime audio transcription using self-hosted Whisper and WebSocket. Supports Faster Whisper, integrated VAD. | WebSocket 架构，分块处理策略 |
 | [speech-to-text (reriiasu)](https://github.com/reriiasu/speech-to-text) | ![GitHub Repo stars](https://badgen.net/github/stars/reriiasu/speech-to-text) | Real-time transcription using faster-whisper. HTML GUI with WebSocket support. SRT subtitle generation. | 提供 GUI，支持字幕生成 |
-| [Whispering](https://github.com/shirayu/whispering) | ![GitHub Repo stars](https://badgen.net/github/stars/shirayu/whispering) | Streaming transcriber with whisper. Client-server architecture support. | 支持客户端-服务器架构 |
+| [Whispering](https://github.com/shirayu/whispering) | ![GitHub Repo stars](https://badgen.net/github/stars/shirayu/whispering) | Streaming transcriber with whisper. Client-server architecture support. | 支持客户端-服务器架构（已归档）|
+
+### Open Source STT Models | 开源 STT 模型
+
+| Name | Stars | Description | Notes |
+|------|-------|-------------|-------|
+| [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | ![GitHub Repo stars](https://badgen.net/github/stars/SYSTRAN/faster-whisper) | Faster Whisper transcription with CTranslate2. Up to 4x faster than openai/whisper with less memory. INT8 quantization support. | ⭐ 工业级首选，4 倍加速，低内存 |
+| [NVIDIA Parakeet](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) | - | 600M-param FastConformer ASR model. Top of Hugging Face Open ASR leaderboard, accurate word-level timestamps, transcribes 60-min audio in one pass. | 准确率领先，长音频高效转录 |
+| [Moonshine](https://github.com/usefulsensors/moonshine) | ![GitHub Repo stars](https://badgen.net/github/stars/usefulsensors/moonshine) | Fast and accurate speech recognition optimized for on-device and edge. Variable-length input, lower latency than Whisper on short audio. | 端侧优化，短音频低延迟 |
 
 ### Commercial STT APIs | 商业 STT 服务
 
@@ -131,9 +144,14 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Voicebox](https://github.com/jamiepine/voicebox) | ![GitHub Repo stars](https://badgen.net/github/stars/jamiepine/voicebox) | Local-first open-source voice cloning & synthesis studio. 5 TTS engines, 23 languages, timeline editor, REST API. Open-source ElevenLabs alternative. | ⭐ 本地优先，支持声音克隆、多轨编辑、后处理音效。[官网](https://voicebox.sh) |
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | ![GitHub Repo stars](https://badgen.net/github/stars/RVC-Boss/GPT-SoVITS) | Few-shot voice cloning TTS. High-quality synthesis. | 少样本语音克隆 |
 | [Bark](https://github.com/suno-ai/bark) | ![GitHub Repo stars](https://badgen.net/github/stars/suno-ai/bark) | Transformer-based TTS model. Generates highly realistic audio including music, sound effects. | 可生成音乐和音效 |
-| [Coqui TTS](https://github.com/coqui-ai/TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/coqui-ai/TTS) | Deep learning TTS toolkit. 1100+ pre-trained models. Voice cloning support. | ⭐ 最全面的开源 TTS 工具箱 |
+| [Coqui TTS](https://github.com/coqui-ai/TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/coqui-ai/TTS) | Deep learning TTS toolkit. 1100+ pre-trained models. Voice cloning support. | 全面的开源 TTS 工具箱（已停官方维护）|
 | [Piper TTS](https://github.com/rhasspy/piper) | ![GitHub Repo stars](https://badgen.net/github/stars/rhasspy/piper) | Fast, local neural TTS. Real-time synthesis with low resource usage. | 实时合成，低资源占用 |
 | [Silero Models](https://github.com/snakers4/silero-models) | ![GitHub Repo stars](https://badgen.net/github/stars/snakers4/silero-models) | Pre-trained text-to-speech models made embarrassingly simple. Multi-language support. | 简单易用，高质量 |
+| [Kokoro](https://github.com/hexgrad/kokoro) | ![GitHub Repo stars](https://badgen.net/github/stars/hexgrad/kokoro) | Open-weight 82M-param TTS model. Lightweight yet high quality, fast and cost-efficient, Apache-licensed. | ⭐ 轻量高质量，推理快成本低 |
+| [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | ![GitHub Repo stars](https://badgen.net/github/stars/FunAudioLLM/CosyVoice) | Multilingual large voice generation model from Alibaba FunAudioLLM. Zero-shot voice cloning, streaming inference, fine-grained control. | 阿里出品，零样本克隆，流式推理 |
+| [Fish-Speech](https://github.com/fishaudio/fish-speech) | ![GitHub Repo stars](https://badgen.net/github/stars/fishaudio/fish-speech) | SOTA open-source multilingual TTS. Zero-shot and few-shot voice cloning, low latency, no phoneme dependency. | 多语言，零样本克隆，低延迟 |
+| [F5-TTS](https://github.com/SWivid/F5-TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/SWivid/F5-TTS) | Fairytaler that fakes fluent and faithful speech with flow matching. Fast, high-quality zero-shot voice cloning. | 基于 flow matching，零样本克隆 |
+| [ChatTTS](https://github.com/2noise/ChatTTS) | ![GitHub Repo stars](https://badgen.net/github/stars/2noise/ChatTTS) | Generative TTS model optimized for dialogue scenarios. Natural conversational prosody, fine-grained prosodic control. | 对话场景优化，自然韵律 |
 
 ### Commercial TTS APIs | 商业 TTS 服务
 
@@ -144,8 +162,23 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) | OpenAI's text-to-speech API. High-quality, low-latency, multiple voice options. | 高质量低延迟 |
 | [Azure Speech Services](https://azure.microsoft.com/products/ai-services/text-to-speech) | Microsoft TTS with neural voices. Custom voice creation, SSML support. | 神经语音，自定义音色 |
 | [Cartesia](https://cartesia.ai/) | Real-time streaming TTS. Ultra-low latency, natural intonation. | 超低延迟流式 TTS |
-| [Deepgram Aura](https://deepgram.com/aura) | Real-time text-to-speech. Conversational voice quality. | 对话式语音，低延迟 |
+| [Deepgram Aura-2](https://deepgram.com/product/text-to-speech) | Real-time text-to-speech. Conversational voice quality. | 对话式语音，低延迟 |
 | [voicetoinstrument.com](https://voicetoinstrument.com) | Convert voice to instrumental tracks using AI. Separate vocals and convert to instrument versions. | 语音转乐器音轨 |
+
+---
+
+## End-to-End Speech Models | 端到端语音模型
+
+End-to-end speech models process audio input and produce audio output directly, without separate STT/LLM/TTS pipelines, enabling lower latency and richer paralinguistic understanding.
+
+端到端语音模型直接处理音频输入并输出音频，无需 STT/LLM/TTS 串联流水线，可实现更低延迟和更丰富的副语言理解。
+
+| Name | Stars | Description | Notes |
+|------|-------|-------------|-------|
+| [Moshi](https://github.com/kyutai-labs/moshi) | ![GitHub Repo stars](https://badgen.net/github/stars/kyutai-labs/moshi) | Full-duplex speech-text foundation model from Kyutai. Real-time dialogue with theoretical ~160ms latency, listens and speaks simultaneously. | ⭐ 全双工实时对话，超低延迟 |
+| [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni) | ![GitHub Repo stars](https://badgen.net/github/stars/QwenLM/Qwen2.5-Omni) | End-to-end multimodal model from Alibaba. Perceives text, image, audio, video and generates text and natural speech in streaming. | 阿里全模态，流式语音生成 |
+| [GLM-4-Voice](https://github.com/THUDM/GLM-4-Voice) | ![GitHub Repo stars](https://badgen.net/github/stars/THUDM/GLM-4-Voice) | End-to-end Chinese-English speech model from THUDM. Low-latency conversation, controllable emotion, tone, and speed. | 智谱出品，中英双语，情感可控 |
+| [Gemini Live API](https://ai.google.dev/gemini-api/docs/live) | - | Google's low-latency bidirectional voice and video API. Native audio understanding and generation, interruption handling, tool use. | Google 官方，原生音视频，支持打断 |
 
 ---
 ## Developer Communities & Resources | 开发者社区与资源
@@ -164,7 +197,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Vapi](https://vapi.ai/) | Platform for quickly building voice AI agents. Low-code, rich integrations, telephony support. | 低代码快速构建平台 |
 | [Retell AI](https://www.retellai.com/) | Conversational AI platform with enterprise-grade turn-taking management. | 企业级话轮管理 |
 | [Tavus](https://www.tavus.io/) | Real-time conversational video API. Transformer-based turn detection, multimodal video+voice. | 视频+语音多模态 |
-| [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/parvbhullar/unpod) |
+| [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/geneffic/unpod) |
 | [voicetest](https://github.com/voicetestdev/voicetest) | Test harness for voice agents. Import from Retell, VAPI, Bland, LiveKit. Run simulations. Evaluate with LLM judges. | 开源测试工具，多平台支持 |
 
 ### Technical Blogs & Documentation | 技术博客与文档
@@ -178,10 +211,45 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Speechmatics: Semantic Turn Detection](https://blog.speechmatics.com/semantic-turn-detection) | Semantic turn detection with SLM. Implementation guide, threshold tuning. | 使用 SLM 的语义话轮检测 |
 | [Agora: TEN VAD & Turn Detection](https://www.agora.io/en/blog/making-voice-ai-agents-more-human-with-ten-vad-and-turn-detection/) | Making voice agents more human with TEN VAD and Turn Detection. | TEN 的 VAD 和话轮检测 |
 
+---
+
+## Learning Resources | 学习资源
+
+Curated resources for getting started and going deep with voice AI agents.
+
+入门与进阶语音 AI Agent 的精选学习资源。
+
+| Name | Description | Notes |
+|------|-------------|-------|
+| [Voice AI & Voice Agents Primer](https://voiceaiandvoiceagents.com/) | Comprehensive illustrated guide to voice AI. Architecture design, technical overview, best practices. | 全面的语音 AI 图解指南，强烈推荐入门 |
+| [Voice Agent Knowledge Base (Feishu)](https://realtime.feishu.cn/docx/FFcedfbkNoNA3OxeD2IcdRWbnLf) | Comprehensive Voice Agent knowledge base in Chinese. Systematic tutorials, practical experience. | Voice Agent 中文知识库 |
+| [AssemblyAI Blog: Turn Detection](https://www.assemblyai.com/blog/turn-detection-endpointing-voice-agent) | In-depth analysis of turn detection. Algorithm comparison, latency analysis. | 话轮检测深度解析 |
+| [LiveKit Blog: Transformer Turn Detection](https://blog.livekit.io/using-a-transformer-to-improve-end-of-turn-detection/) | Using transformers to improve endpointing. Technical details, performance comparison. | Transformer 改进端点检测 |
+| [Speechmatics: Semantic Turn Detection](https://blog.speechmatics.com/semantic-turn-detection) | Semantic turn detection with SLM. Implementation guide, threshold tuning. | 使用 SLM 的语义话轮检测 |
+| [Agora: TEN VAD & Turn Detection](https://www.agora.io/en/blog/making-voice-ai-agents-more-human-with-ten-vad-and-turn-detection/) | Making voice agents more human with TEN VAD and Turn Detection. | TEN 的 VAD 和话轮检测 |
+
+> 更多技术博客见上方 [Technical Blogs & Documentation](#technical-blogs--documentation--技术博客与文档) 小节。
+
+---
+
 ## Related Awesome Lists | 相关资源
 
 - [awesome-voice-conversion](https://github.com/JeffC0628/awesome-voice-conversion)
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
+
+---
+
+## Contributing | 贡献指南
+
+Contributions are welcome! 欢迎贡献！
+
+1. Fork this repository and create a new branch. | Fork 本仓库并新建分支。
+2. Add your resource to the most relevant section, keeping the existing table format (Name, Stars, Description, Notes). | 将资源添加到最相关的小节，保持现有表格格式。
+3. Ensure the link is valid and the project is actively maintained and relevant to voice AI agents. | 确保链接有效，项目活跃维护且与语音 AI Agent 相关。
+4. Keep descriptions concise and provide bilingual (English + 中文) notes where possible. | 描述简洁，尽量提供中英双语说明。
+5. Submit a Pull Request describing what you added and why. | 提交 PR 并说明添加内容及理由。
+
+You can also open an Issue to suggest resources or report broken links. | 也可通过 Issue 推荐资源或报告失效链接。
 
 ---
 
@@ -202,6 +270,7 @@ If this list helps you, please give it a ⭐️!
 ---
 
 **Maintainer | 维护者: 云中江树**  
+**微信公众号 | WeChat Official Account: 云中江树**  
 **WeChat | 微信: 1796060717** (加入 Voice Agent 交流群)  
 
 Welcome to exchange and discuss Voice Agent technology through Issues or PRs!  
