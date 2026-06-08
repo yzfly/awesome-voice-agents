@@ -275,3 +275,10 @@ If this list helps you, please give it a ⭐️!
 
 Welcome to exchange and discuss Voice Agent technology through Issues or PRs!  
 欢迎通过 Issues 或 PR 交流讨论 Voice Agent 相关技术！
+
+## Agent Identity & Trust | 智能体身份验证
+
+*Tools for verifying the identity and trustworthiness of autonomous voice agents.*
+
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** — Trust scoring and wallet identity verification for voice AI agents. When voice agents operate autonomously and access premium STT/TTS APIs or make x402 micropayments for voice data, TWZRD verifies agent identity first. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
