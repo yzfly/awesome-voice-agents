@@ -351,6 +351,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [Tavus](https://www.tavus.io/) | Real-time conversational video API. Transformer-based turn detection, multimodal video+voice. | 视频+语音多模态 |
 | [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/geneffic/unpod) |
 | [voicetest](https://github.com/voicetestdev/voicetest) | Test harness for voice agents. Import from Retell, VAPI, Bland, LiveKit. Run simulations. Evaluate with LLM judges. | 开源测试工具，多平台支持 |
+| [Hermes](https://buildwithhermes.com) | White-label operating platform for AI voice agencies. Deploy and manage voice agents under your own brand with built-in CRM, campaign orchestration, telephony, and usage-based billing in one system. Usage-based pricing from $149/mo. | 面向语音 AI 代理商的白标运营平台，自带 CRM、外呼编排、电话与计费 |
 
 ### Technical Blogs & Documentation | 技术博客与文档
 
