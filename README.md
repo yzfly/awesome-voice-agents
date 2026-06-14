@@ -42,6 +42,7 @@ Add WeChat | 添加微信: **1796060717**
 | [TEN Framework](https://github.com/TEN-framework/ten-framework) | ![GitHub Repo stars](https://badgen.net/github/stars/TEN-framework/ten-framework) | Open-source framework for conversational voice AI agents with multimodal capabilities (voice, vision, avatar). Low-latency, high-quality real-time assistant. | 支持多模态，低延迟高质量。[Demo](https://agent.theten.ai/) |
 | [Pipecat](https://github.com/pipecat-ai/pipecat) | ![GitHub Repo stars](https://badgen.net/github/stars/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI. Modular design with support for multiple STT, LLM, TTS services. | 模块化设计，支持多平台 SDK |
 | [LiveKit Agents](https://github.com/livekit/agents) | ![GitHub Repo stars](https://badgen.net/github/stars/livekit/agents) | Powerful framework for building realtime voice AI agents. Fully open-source, WebRTC support, built-in semantic turn detection. | 完全开源，内置语义话轮检测 |
+| [Vision Agents](https://github.com/GetStream/Vision-Agents) | ![GitHub Repo stars](https://badgen.net/github/stars/GetStream/Vision-Agents) | Open framework for low-latency voice and vision AI agents. Pluggable STT/LLM/TTS plus realtime video understanding, provider-agnostic with WebRTC edge transport. | GetStream 出品，低延迟语音+视觉智能体框架 |
 | [OpenAI Realtime Agents](https://github.com/openai/openai-realtime-agents) | ![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-realtime-agents) | Advanced agentic patterns built on OpenAI Realtime API. Multi-agent collaboration, handoffs, tool use. | OpenAI 官方示例，支持多 Agent |
 | [openai-agents-js](https://github.com/openai/openai-agents-js) | ![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-agents-js) | A lightweight, powerful framework for multi-agent workflows and voice agents. | OpenAI 官方示例，支持多 Agent 和语音Agent |
 | [call-center-ai](https://github.com/microsoft/call-center-ai) | ![GitHub Repo stars](https://badgen.net/github/stars/microsoft/call-center-ai) | Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number! | 基于 Azure 和 OpenAI GPT 的 AI 驱动呼叫中心解决方案。|
@@ -56,6 +57,8 @@ Add WeChat | 添加微信: **1796060717**
 | [Dograh](https://github.com/dograh-hq/dograh) | ![GitHub Repo stars](https://badgen.net/github/stars/dograh-hq/dograh) | Self-hosted open-source Vapi/Retell alternative with drag-and-drop visual workflow builder, BYOK, MCP-native and telephony built in. | 自托管的可视化拖拽语音流程编排，自带电话与 MCP |
 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | ![GitHub Repo stars](https://badgen.net/github/stars/huggingface/speech-to-speech) | Modular STT→LLM→TTS pipeline to build local voice agents entirely from open-source models. | 用开源模型搭本地语音 Agent 流水线 |
 | [Rasa](https://github.com/RasaHQ/rasa) | ![GitHub Repo stars](https://badgen.net/github/stars/RasaHQ/rasa) | Mature open-source NLU + dialogue-management framework (now with the LLM-driven CALM engine) for text and voice assistants. | 老牌开源对话框架，CALM 引擎结合 LLM 与业务逻辑 |
+| [Rapida voice-ai](https://github.com/rapidaai/voice-ai) | ![GitHub Repo stars](https://badgen.net/github/stars/rapidaai/voice-ai) | End-to-end voice orchestration platform connecting STT, LLM and TTS providers for building and deploying production voice agents. | 端到端语音编排平台，串联 STT/LLM/TTS 部署生产级语音 Agent |
+| [Patter](https://github.com/PatterAI/Patter) | ![GitHub Repo stars](https://badgen.net/github/stars/PatterAI/Patter) | Open-source voice AI SDK for building real-time conversational voice agents with pluggable speech pipelines. | 开源语音 AI SDK，可插拔语音流水线构建实时对话 Agent |
 
 ### Specialized Solutions | 专用解决方案
 
@@ -236,6 +239,7 @@ End-to-end speech models process audio input and produce audio output directly, 
 | [Westlake-Omni](https://github.com/xinchen-ai/Westlake-Omni) | ![GitHub Repo stars](https://badgen.net/github/stars/xinchen-ai/Westlake-Omni) | Open-source Chinese emotional end-to-end speech model; unified discrete speech+text, low-latency simultaneous output. | 西湖心辰，开源中文情感语音交互模型 |
 | [Sesame CSM](https://github.com/SesameAILabs/csm) | ![GitHub Repo stars](https://badgen.net/github/stars/SesameAILabs/csm) | Conversational Speech Model generating Mimi audio codes from text+audio context (Llama backbone). Powers Sesame's natural voice demo. | Sesame 对话语音生成模型，上下文驱动，自然度极高 |
 | [Gemini Live API](https://ai.google.dev/gemini-api/docs/live) | - | Google's low-latency bidirectional voice and video API. Native audio understanding and generation, interruption handling, tool use. | Google 官方，原生音视频，支持打断 |
+| [Gemini Live API Examples](https://github.com/google-gemini/gemini-live-api-examples) | ![GitHub Repo stars](https://badgen.net/github/stars/google-gemini/gemini-live-api-examples) | Official Google sample apps for the Gemini Live realtime voice/video API across web, mobile and backends. | Google 官方 Gemini Live 实时语音 API 示例集 |
 | [OpenAI gpt-realtime](https://platform.openai.com/docs/guides/realtime) | - | Production speech-to-speech API; native audio comprehension, mid-sentence language switching, tool calling. | OpenAI 商用实时语音模型，闭源 API |
 
 ### Audio Understanding Models | 语音理解模型 (audio-in, text-out)
@@ -304,6 +308,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeSTT) | Low-latency STT library with advanced VAD, wake-word activation and instant transcription. A core voice-agent building block. | 低延迟实时 STT，带 VAD 与唤醒词，Agent 基础组件 |
 | [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeTTS) | Low-latency TTS library streaming strings/LLM token streams to audio with multi-engine fallback. | 低延迟流式 TTS，可流式播放 LLM token |
 | [OpenVoiceOS (ovos-core)](https://github.com/OpenVoiceOS/ovos-core) | ![GitHub Repo stars](https://badgen.net/github/stars/OpenVoiceOS/ovos-core) | FOSS voice-assistant OS platform, the actively-maintained Mycroft successor. Apache-2.0. | FOSS 语音助手系统（Mycroft 继任者）|
+| [mlx-audio](https://github.com/Blaizzy/mlx-audio) | ![GitHub Repo stars](https://badgen.net/github/stars/Blaizzy/mlx-audio) | TTS, STT and speech-to-speech library built on Apple MLX for fast on-device audio generation and recognition on Apple Silicon. | 基于 Apple MLX 的 TTS/STT/STS 库，苹果芯片本地高速推理 |
 
 ### Wake Word Detection | 唤醒词检测
 
