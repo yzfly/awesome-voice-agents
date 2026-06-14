@@ -131,6 +131,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) | ![GitHub Repo stars](https://badgen.net/github/stars/QuentinFuxa/WhisperLiveKit) | Real-time, fully local speech-to-text with speaker diarization; web UI plus FastAPI server, built on SimulStreaming/WhisperStreaming. | 同步实时语音转文字，含说话人分离，全本地可部署 |
 | [Whisper Streaming (UFAL)](https://github.com/ufal/whisper_streaming) | ![GitHub Repo stars](https://badgen.net/github/stars/ufal/whisper_streaming) | Whisper realtime streaming for long speech-to-text. Local agreement policy with self-adaptive latency. 3.3s latency. | 使用局部一致性策略，自适应延迟 |
 | [WhisperLive](https://github.com/collabora/WhisperLive) | ![GitHub Repo stars](https://badgen.net/github/stars/collabora/WhisperLive) | Nearly-live implementation of OpenAI's Whisper. TensorRT acceleration support. Browser extensions and iOS client. | 支持 TensorRT 加速和多平台 |
 | [Whisper Real Time](https://github.com/davabase/whisper_real_time) | ![GitHub Repo stars](https://badgen.net/github/stars/davabase/whisper_real_time) | Real time transcription with OpenAI Whisper. Continuously records and concatenates audio. | 简单易用的实时转录演示 |
@@ -142,6 +143,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [DeepSpeech](https://github.com/mozilla/DeepSpeech) | ![GitHub Repo stars](https://badgen.net/github/stars/mozilla/DeepSpeech) | Open-source speech-to-text engine that runs offline and in real time on-device, from embedded to server. | Mozilla 开源离线设备端实时 STT 引擎（已停维护）|
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | ![GitHub Repo stars](https://badgen.net/github/stars/SYSTRAN/faster-whisper) | Faster Whisper transcription with CTranslate2. Up to 4x faster than openai/whisper with less memory. INT8 quantization support. | ⭐ 工业级首选，4 倍加速，低内存 |
 | [NVIDIA Parakeet](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) | - | 600M-param FastConformer ASR model. Top of Hugging Face Open ASR leaderboard, accurate word-level timestamps, transcribes 60-min audio in one pass. | 准确率领先，长音频高效转录 |
 | [Moonshine](https://github.com/usefulsensors/moonshine) | ![GitHub Repo stars](https://badgen.net/github/stars/usefulsensors/moonshine) | Fast and accurate speech recognition optimized for on-device and edge. Variable-length input, lower latency than Whisper on short audio. | 端侧优化，短音频低延迟 |
@@ -302,6 +304,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | ![GitHub Repo stars](https://badgen.net/github/stars/k2-fsa/sherpa-onnx) | Offline/real-time STT, TTS, speaker diarization, VAD and keyword spotting from next-gen Kaldi; runs on 10+ platforms with many language bindings. | 下一代 Kaldi 出品，离线 STT/TTS/说话人分离/VAD，跨平台 |
 | [SpeechBrain](https://github.com/speechbrain/speechbrain) | ![GitHub Repo stars](https://badgen.net/github/stars/speechbrain/speechbrain) | All-in-one PyTorch speech toolkit (ASR, TTS, diarization, enhancement, speaker ID). Apache-2.0. | 一体化 PyTorch 语音工具箱 |
 | [ESPnet](https://github.com/espnet/espnet) | ![GitHub Repo stars](https://badgen.net/github/stars/espnet/espnet) | End-to-end speech processing toolkit covering ASR, TTS, speech translation, enhancement and SLU. | 端到端语音处理工具箱，覆盖 ASR/TTS/翻译 |
 | [vosk-api](https://github.com/alphacep/vosk-api) | ![GitHub Repo stars](https://badgen.net/github/stars/alphacep/vosk-api) | Offline STT for Android/iOS/RPi/servers, many languages and bindings. Apache-2.0. | 离线 STT，跨平台多语言绑定 |
