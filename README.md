@@ -59,6 +59,7 @@ Add WeChat | 添加微信: **1796060717**
 | [Rasa](https://github.com/RasaHQ/rasa) | ![GitHub Repo stars](https://badgen.net/github/stars/RasaHQ/rasa) | Mature open-source NLU + dialogue-management framework (now with the LLM-driven CALM engine) for text and voice assistants. | 老牌开源对话框架，CALM 引擎结合 LLM 与业务逻辑 |
 | [Rapida voice-ai](https://github.com/rapidaai/voice-ai) | ![GitHub Repo stars](https://badgen.net/github/stars/rapidaai/voice-ai) | End-to-end voice orchestration platform connecting STT, LLM and TTS providers for building and deploying production voice agents. | 端到端语音编排平台，串联 STT/LLM/TTS 部署生产级语音 Agent |
 | [Patter](https://github.com/PatterAI/Patter) | ![GitHub Repo stars](https://badgen.net/github/stars/PatterAI/Patter) | Open-source voice AI SDK for building real-time conversational voice agents with pluggable speech pipelines. | 开源语音 AI SDK，可插拔语音流水线构建实时对话 Agent |
+| [EchoKit Server](https://github.com/second-state/echokit_server) | ![GitHub Repo stars](https://badgen.net/github/stars/second-state/echokit_server) | Open-source voice agent server connecting STT, LLM and TTS for the EchoKit hardware and any client; configurable, self-hostable. | 开源语音 Agent 服务端，串联 STT/LLM/TTS，可自托管 |
 
 ### Specialized Solutions | 专用解决方案
 
@@ -67,6 +68,7 @@ Add WeChat | 添加微信: **1796060717**
 | [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) | ![GitHub Repo stars](https://badgen.net/github/stars/bentoml/BentoVoiceAgent) | Build phone calling voice agents fully powered by open source models. Uses BentoML for deployment. | 完全基于开源模型 |
 | [LangGraph Voice Agent](https://github.com/Rajathbharadwaj/voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/Rajathbharadwaj/voice-agent) | Voice AI SDR Agent for automated sales calls. Built with LangGraph, Twilio, and OpenAI. Production-ready with call routing, objection handling, and appointment scheduling. | LangGraph 架构，销售自动化 |
 | [RealtimeVoiceChat](https://github.com/KoljaB/RealtimeVoiceChat) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeVoiceChat) | Browser-to-Python stack for ~500ms natural spoken conversation with local LLMs (Ollama). Built on RealtimeSTT + RealtimeTTS. | 本地语音对话栈，约 500ms 延迟 |
+| [react-voice-agent](https://github.com/langchain-ai/react-voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/react-voice-agent) | LangChain official example wiring the OpenAI Realtime API into a tool-using ReAct-style voice agent over WebSockets. | LangChain 官方 React 风格语音 Agent 示例，接入 OpenAI Realtime API |
 
 ### Commercial Speech-to-Speech Platforms | 商业语音平台
 
@@ -185,6 +187,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Fish-Speech](https://github.com/fishaudio/fish-speech) | ![GitHub Repo stars](https://badgen.net/github/stars/fishaudio/fish-speech) | SOTA open-source multilingual TTS. Zero-shot and few-shot voice cloning, low latency, no phoneme dependency. | 多语言，零样本克隆，低延迟 |
 | [F5-TTS](https://github.com/SWivid/F5-TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/SWivid/F5-TTS) | Fairytaler that fakes fluent and faithful speech with flow matching. Fast, high-quality zero-shot voice cloning. | 基于 flow matching，零样本克隆 |
 | [ChatTTS](https://github.com/2noise/ChatTTS) | ![GitHub Repo stars](https://badgen.net/github/stars/2noise/ChatTTS) | Generative TTS model optimized for dialogue scenarios. Natural conversational prosody, fine-grained prosodic control. | 对话场景优化，自然韵律 |
+| [VoiceCraft](https://github.com/jasonppy/VoiceCraft) | ![GitHub Repo stars](https://badgen.net/github/stars/jasonppy/VoiceCraft) | Token-infilling neural codec model for zero-shot speech editing and TTS in the wild; clones a voice from a few seconds of reference audio. | 野外环境零样本语音编辑与 TTS，几秒参考音频即可克隆 |
 | [Chatterbox](https://github.com/resemble-ai/chatterbox) | ![GitHub Repo stars](https://badgen.net/github/stars/resemble-ai/chatterbox) | Resemble AI MIT-licensed TTS; Turbo variant ~75ms latency, 5-second voice cloning, emotion-exaggeration control, 23-language variant. | Resemble AI，MIT，75ms 超低延迟，5 秒克隆 |
 | [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/canopyai/Orpheus-TTS) | Llama-3B-based emotive TTS with ~200ms (down to ~100ms) streaming latency, zero-shot cloning, emotion/intonation tags. | Canopy Labs，Llama 架构，~200ms 流式低延迟 |
 | [IndexTTS2](https://github.com/index-tts/index-tts) | ![GitHub Repo stars](https://badgen.net/github/stars/index-tts/index-tts) | Bilibili industrial zero-shot TTS, first AR model with precise duration control plus disentangled emotion/timbre control. | B站出品，工业级零样本+时长控制+情感音色解耦 |
