@@ -8,9 +8,9 @@ Welcome to **Awesome Voice Agents**! This is a carefully curated collection of r
 
 **Maintainer | 维护者: 云中江树**（微信公众号: 云中江树）
 
-💬 **Join Voice Agent Community | 加入 Voice Agent 交流群**  
-Add WeChat | 添加微信: **1796060717**  
-欢迎 Voice Agent 从业者和爱好者加入交流！
+💬 **Connect | 交流**  
+Add WeChat | 添加江树微信: **1796060717**  
+欢迎 Voice Agent 从业者和爱好者加微信交流！
 
 ---
 
@@ -434,7 +434,7 @@ If this list helps you, please give it a ⭐️!
 
 **Maintainer | 维护者: 云中江树**  
 **微信公众号 | WeChat Official Account: 云中江树**  
-**WeChat | 微信: 1796060717** (加入 Voice Agent 交流群)  
+**WeChat | 微信: 1796060717** (欢迎加微信交流 Voice Agent 技术)  
 
 Welcome to exchange and discuss Voice Agent technology through Issues or PRs!  
 欢迎通过 Issues 或 PR 交流讨论 Voice Agent 相关技术！
