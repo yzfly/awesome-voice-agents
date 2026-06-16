@@ -362,6 +362,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [Tavus](https://www.tavus.io/) | Real-time conversational video API. Transformer-based turn detection, multimodal video+voice. | 视频+语音多模态 |
 | [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/geneffic/unpod) |
 | [voicetest](https://github.com/voicetestdev/voicetest) | Test harness for voice agents. Import from Retell, VAPI, Bland, LiveKit. Run simulations. Evaluate with LLM judges. | 开源测试工具，多平台支持 |
+| [Future AGI](https://github.com/future-agi/future-agi) | Open-source platform to stress-test voice and text AI agents with persona-driven, multi-turn simulations, scoring the results with 70+ evals to find where an agent breaks before your users do. | 用人设多轮对话压测语音/文本 Agent，转写打分，提前发现问题 |
 
 ### Technical Blogs & Documentation | 技术博客与文档
 
