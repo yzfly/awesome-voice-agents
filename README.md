@@ -201,6 +201,8 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [MeloTTS](https://github.com/myshell-ai/MeloTTS) | ![GitHub Repo stars](https://badgen.net/github/stars/myshell-ai/MeloTTS) | MyShell MIT-licensed multilingual library (EN/ES/FR/ZH/JA/KO), fast enough for CPU real-time inference. | MyShell，MIT，多语种 CPU 实时推理 |
 | [StyleTTS 2](https://github.com/yl4579/StyleTTS2) | ![GitHub Repo stars](https://badgen.net/github/stars/yl4579/StyleTTS2) | Style-diffusion + adversarial TTS reaching human-level quality and zero-shot speaker adaptation; a foundational OSS model. | 风格扩散+对抗训练达到人类水平，众多项目底座 |
 | [Parler-TTS](https://github.com/huggingface/parler-tts) | ![GitHub Repo stars](https://badgen.net/github/stars/huggingface/parler-tts) | Hugging Face fully-open controllable TTS where voice traits (gender, pitch, rate, reverb) are set via a text description prompt. | HuggingFace 全开源，自然语言描述控制音色 |
+| [Zonos](https://github.com/Zyphra/Zonos) | ![GitHub Repo stars](https://badgen.net/github/stars/Zyphra/Zonos) | Zyphra open-weight TTS trained on 200K+ hours of multilingual speech; high-fidelity zero-shot voice cloning with fine control over speaking rate, pitch and emotion. | Zyphra，20 万小时训练的开源权重 TTS，零样本克隆+情感语速控制 |
+| [edge-tts](https://github.com/rany2/edge-tts) | ![GitHub Repo stars](https://badgen.net/github/stars/rany2/edge-tts) | Python library and CLI to use Microsoft Edge's online text-to-speech service with no API key, token or Azure account required. | 免 API key 调用微软 Edge 在线 TTS 的 Python 库，覆盖语种广 |
 
 ### Commercial TTS APIs | 商业 TTS 服务
 
