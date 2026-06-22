@@ -60,12 +60,14 @@ Add WeChat | 添加江树微信: **1796060717**
 | [Rapida voice-ai](https://github.com/rapidaai/voice-ai) | ![GitHub Repo stars](https://badgen.net/github/stars/rapidaai/voice-ai) | End-to-end voice orchestration platform connecting STT, LLM and TTS providers for building and deploying production voice agents. | 端到端语音编排平台，串联 STT/LLM/TTS 部署生产级语音 Agent |
 | [Patter](https://github.com/PatterAI/Patter) | ![GitHub Repo stars](https://badgen.net/github/stars/PatterAI/Patter) | Open-source voice AI SDK for building real-time conversational voice agents with pluggable speech pipelines. | 开源语音 AI SDK，可插拔语音流水线构建实时对话 Agent |
 | [EchoKit Server](https://github.com/second-state/echokit_server) | ![GitHub Repo stars](https://badgen.net/github/stars/second-state/echokit_server) | Open-source voice agent server connecting STT, LLM and TTS for the EchoKit hardware and any client; configurable, self-hostable. | 开源语音 Agent 服务端，串联 STT/LLM/TTS，可自托管 |
+| [adk-rust](https://github.com/zavora-ai/adk-rust) | ![GitHub Repo stars](https://badgen.net/github/stars/zavora-ai/adk-rust) | Rust Agent Development Kit with built-in realtime voice agent support for building and deploying AI agents. | Rust 版 Agent 开发套件，内置实时语音 Agent 支持 |
 
 ### Specialized Solutions | 专用解决方案
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
 | [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) | ![GitHub Repo stars](https://badgen.net/github/stars/bentoml/BentoVoiceAgent) | Build phone calling voice agents fully powered by open source models. Uses BentoML for deployment. | 完全基于开源模型 |
+| [AVA - AI Voice Agent for Asterisk](https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk) | ![GitHub Repo stars](https://badgen.net/github/stars/hkjarral/AVA-AI-Voice-Agent-for-Asterisk) | Open-source AI voice agent integrating with Asterisk/FreePBX for telephony-based conversational AI. | 对接 Asterisk/FreePBX 的开源 AI 语音 Agent |
 | [LangGraph Voice Agent](https://github.com/Rajathbharadwaj/voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/Rajathbharadwaj/voice-agent) | Voice AI SDR Agent for automated sales calls. Built with LangGraph, Twilio, and OpenAI. Production-ready with call routing, objection handling, and appointment scheduling. | LangGraph 架构，销售自动化 |
 | [RealtimeVoiceChat](https://github.com/KoljaB/RealtimeVoiceChat) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeVoiceChat) | Browser-to-Python stack for ~500ms natural spoken conversation with local LLMs (Ollama). Built on RealtimeSTT + RealtimeTTS. | 本地语音对话栈，约 500ms 延迟 |
 | [react-voice-agent](https://github.com/langchain-ai/react-voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/react-voice-agent) | LangChain official example wiring the OpenAI Realtime API into a tool-using ReAct-style voice agent over WebSockets. | LangChain 官方 React 风格语音 Agent 示例，接入 OpenAI Realtime API |
@@ -177,6 +179,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
 | [Voicebox](https://github.com/jamiepine/voicebox) | ![GitHub Repo stars](https://badgen.net/github/stars/jamiepine/voicebox) | Local-first open-source voice cloning & synthesis studio. 5 TTS engines, 23 languages, timeline editor, REST API. Open-source ElevenLabs alternative. | ⭐ 本地优先，支持声音克隆、多轨编辑、后处理音效。[官网](https://voicebox.sh) |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | ![GitHub Repo stars](https://badgen.net/github/stars/OpenBMB/VoxCPM) | Tokenizer-free multilingual TTS supporting creative voice design and high-fidelity voice cloning. | OpenBMB 出品，免 tokenizer，多语种创意音色+高保真克隆 |
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | ![GitHub Repo stars](https://badgen.net/github/stars/RVC-Boss/GPT-SoVITS) | Few-shot voice cloning TTS. High-quality synthesis. | 少样本语音克隆 |
 | [Bark](https://github.com/suno-ai/bark) | ![GitHub Repo stars](https://badgen.net/github/stars/suno-ai/bark) | Transformer-based TTS model. Generates highly realistic audio including music, sound effects. | 可生成音乐和音效 |
 | [Coqui TTS](https://github.com/coqui-ai/TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/coqui-ai/TTS) | Deep learning TTS toolkit. 1100+ pre-trained models. Voice cloning support. | 全面的开源 TTS 工具箱（已停官方维护）|
@@ -327,6 +330,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | ![GitHub Repo stars](https://badgen.net/github/stars/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice from 5 seconds of audio and generate speech in real time; the classic SV2TTS-based voice cloning project. | ⭐ 经典项目，5 秒克隆音色实时生成语音 |
 | [OpenVoice](https://github.com/myshell-ai/OpenVoice) | ![GitHub Repo stars](https://badgen.net/github/stars/myshell-ai/OpenVoice) | Instant voice cloning audio foundation model by MIT + MyShell; flexible style control, cross-lingual. MIT. | MIT×MyShell 即时声音克隆基础模型 |
 | [RVC WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | ![GitHub Repo stars](https://badgen.net/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Train a good voice-conversion model from ≤10 min of data. Hugely popular. MIT. | ≤10 分钟数据训练高质量变声模型 |
 | [voice-changer](https://github.com/w-okada/voice-changer) | ![GitHub Repo stars](https://badgen.net/github/stars/w-okada/voice-changer) | Real-time voice changer supporting RVC, so-vits-svc and other backends. | 实时变声器，支持多种模型后端 |
@@ -386,6 +390,7 @@ Curated resources for getting started and going deep with voice AI agents.
 |------|-------------|-------|
 | [Voice AI & Voice Agents Primer](https://voiceaiandvoiceagents.com/) | Comprehensive illustrated guide to voice AI. Architecture design, technical overview, best practices. | 全面的语音 AI 图解指南，强烈推荐入门 |
 | [Voice Agent Knowledge Base (Feishu)](https://realtime.feishu.cn/docx/FFcedfbkNoNA3OxeD2IcdRWbnLf) | Comprehensive Voice Agent knowledge base in Chinese. Systematic tutorials, practical experience. | Voice Agent 中文知识库 |
+| [Realtime Phone Agents Course](https://github.com/neural-maze/realtime-phone-agents-course) | Hands-on course on building realtime phone voice agents with FastRTC + Twilio + Runpod. | 实时电话语音 Agent 实战课程，FastRTC+Twilio+Runpod |
 | [AssemblyAI Blog: Turn Detection](https://www.assemblyai.com/blog/turn-detection-endpointing-voice-agent) | In-depth analysis of turn detection. Algorithm comparison, latency analysis. | 话轮检测深度解析 |
 | [LiveKit Blog: Transformer Turn Detection](https://blog.livekit.io/using-a-transformer-to-improve-end-of-turn-detection/) | Using transformers to improve endpointing. Technical details, performance comparison. | Transformer 改进端点检测 |
 | [Speechmatics: Semantic Turn Detection](https://blog.speechmatics.com/semantic-turn-detection) | Semantic turn detection with SLM. Implementation guide, threshold tuning. | 使用 SLM 的语义话轮检测 |
