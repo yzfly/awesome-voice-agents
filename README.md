@@ -61,6 +61,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [Patter](https://github.com/PatterAI/Patter) | ![GitHub Repo stars](https://badgen.net/github/stars/PatterAI/Patter) | Open-source voice AI SDK for building real-time conversational voice agents with pluggable speech pipelines. | 开源语音 AI SDK，可插拔语音流水线构建实时对话 Agent |
 | [EchoKit Server](https://github.com/second-state/echokit_server) | ![GitHub Repo stars](https://badgen.net/github/stars/second-state/echokit_server) | Open-source voice agent server connecting STT, LLM and TTS for the EchoKit hardware and any client; configurable, self-hostable. | 开源语音 Agent 服务端，串联 STT/LLM/TTS，可自托管 |
 | [adk-rust](https://github.com/zavora-ai/adk-rust) | ![GitHub Repo stars](https://badgen.net/github/stars/zavora-ai/adk-rust) | Rust Agent Development Kit with built-in realtime voice agent support for building and deploying AI agents. | Rust 版 Agent 开发套件，内置实时语音 Agent 支持 |
+| [flowcat](https://github.com/AreevAI/flowcat) | ![GitHub Repo stars](https://badgen.net/github/stars/AreevAI/flowcat) | Self-hosted native-Rust runtime for real-time voice agents: one binary in your own VPC or air-gapped, no hosted control plane, pipecat-compatible pipeline with in-process SIP/RTP. Apache-2.0. | 纯 Rust 实时语音 Agent 运行时，单二进制自托管于自有 VPC，pipecat 兼容，内置 SIP/RTP |
 
 ### Specialized Solutions | 专用解决方案
 
@@ -71,6 +72,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [LangGraph Voice Agent](https://github.com/Rajathbharadwaj/voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/Rajathbharadwaj/voice-agent) | Voice AI SDR Agent for automated sales calls. Built with LangGraph, Twilio, and OpenAI. Production-ready with call routing, objection handling, and appointment scheduling. | LangGraph 架构，销售自动化 |
 | [RealtimeVoiceChat](https://github.com/KoljaB/RealtimeVoiceChat) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeVoiceChat) | Browser-to-Python stack for ~500ms natural spoken conversation with local LLMs (Ollama). Built on RealtimeSTT + RealtimeTTS. | 本地语音对话栈，约 500ms 延迟 |
 | [react-voice-agent](https://github.com/langchain-ai/react-voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/react-voice-agent) | LangChain official example wiring the OpenAI Realtime API into a tool-using ReAct-style voice agent over WebSockets. | LangChain 官方 React 风格语音 Agent 示例，接入 OpenAI Realtime API |
+| [voice-demo](https://github.com/langchain-ai/voice-demo) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/voice-demo) | LangChain official demo with three swappable voice-agent backends (LiveKit, OpenAI Realtime, Google ADK Live) sharing one console interface, each instrumented for LangSmith. | LangChain 官方:三种语音 Agent 后端(LiveKit/OpenAI Realtime/Google ADK Live)共享同一控制台，接入 LangSmith |
 
 ### Commercial Speech-to-Speech Platforms | 商业语音平台
 
