@@ -67,6 +67,7 @@ Add WeChat | 添加江树微信: **1796060717**
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [airi](https://github.com/moeru-ai/airi) | ![GitHub Repo stars](https://badgen.net/github/stars/moeru-ai/airi) | Self-hosted, local-first AI companion (VTuber-style) with real-time voice chat; runs in browser/desktop, drives Live2D/VRM avatars and can even play games. | 自托管 AI 伴侣，支持实时语音聊天与虚拟形象 |
 | [BentoVoiceAgent](https://github.com/bentoml/BentoVoiceAgent) | ![GitHub Repo stars](https://badgen.net/github/stars/bentoml/BentoVoiceAgent) | Build phone calling voice agents fully powered by open source models. Uses BentoML for deployment. | 完全基于开源模型 |
 | [AVA - AI Voice Agent for Asterisk](https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk) | ![GitHub Repo stars](https://badgen.net/github/stars/hkjarral/AVA-AI-Voice-Agent-for-Asterisk) | Open-source AI voice agent integrating with Asterisk/FreePBX for telephony-based conversational AI. | 对接 Asterisk/FreePBX 的开源 AI 语音 Agent |
 | [LangGraph Voice Agent](https://github.com/Rajathbharadwaj/voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/Rajathbharadwaj/voice-agent) | Voice AI SDR Agent for automated sales calls. Built with LangGraph, Twilio, and OpenAI. Production-ready with call routing, objection handling, and appointment scheduling. | LangGraph 架构，销售自动化 |
