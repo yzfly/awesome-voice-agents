@@ -328,6 +328,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeTTS) | Low-latency TTS library streaming strings/LLM token streams to audio with multi-engine fallback. | 低延迟流式 TTS，可流式播放 LLM token |
 | [OpenVoiceOS (ovos-core)](https://github.com/OpenVoiceOS/ovos-core) | ![GitHub Repo stars](https://badgen.net/github/stars/OpenVoiceOS/ovos-core) | FOSS voice-assistant OS platform, the actively-maintained Mycroft successor. Apache-2.0. | FOSS 语音助手系统（Mycroft 继任者）|
 | [mlx-audio](https://github.com/Blaizzy/mlx-audio) | ![GitHub Repo stars](https://badgen.net/github/stars/Blaizzy/mlx-audio) | TTS, STT and speech-to-speech library built on Apple MLX for fast on-device audio generation and recognition on Apple Silicon. | 基于 Apple MLX 的 TTS/STT/STS 库，苹果芯片本地高速推理 |
+| [audio.cpp](https://github.com/0xShug0/audio.cpp) | ![GitHub Repo stars](https://badgen.net/github/stars/0xShug0/audio.cpp) | All-in-one pure C++ audio inference engine built on ggml, covering TTS, voice cloning, voice conversion, ASR, diarization, VAD, source separation and codec models with CLI/server entry points. No Python dependency, CUDA-optimized. | 基于 ggml 的一体化纯 C++ 音频推理引擎，涵盖 TTS/STT/VAD/变声/分离等，无 Python 依赖，CUDA 优化 |
 
 ### Wake Word Detection | 唤醒词检测
 
