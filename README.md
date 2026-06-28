@@ -147,6 +147,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [VoiceStreamAI](https://github.com/alesaccoia/VoiceStreamAI) | ![GitHub Repo stars](https://badgen.net/github/stars/alesaccoia/VoiceStreamAI) | Near-realtime audio transcription using self-hosted Whisper and WebSocket. Supports Faster Whisper, integrated VAD. | WebSocket 架构，分块处理策略 |
 | [speech-to-text (reriiasu)](https://github.com/reriiasu/speech-to-text) | ![GitHub Repo stars](https://badgen.net/github/stars/reriiasu/speech-to-text) | Real-time transcription using faster-whisper. HTML GUI with WebSocket support. SRT subtitle generation. | 提供 GUI，支持字幕生成 |
 | [Whispering](https://github.com/shirayu/whispering) | ![GitHub Repo stars](https://badgen.net/github/stars/shirayu/whispering) | Streaming transcriber with whisper. Client-server architecture support. | 支持客户端-服务器架构（已归档）|
+| [LiveCaption_Global](https://github.com/begin0808/LiveCaption_Global) | ![GitHub Repo stars](https://badgen.net/github/stars/begin0808/LiveCaption_Global) | Chrome extension for real-time bilingual subtitles on any browser video; offline-first Whisper + SenseVoice ASR with Silero VAD, translated locally via Ollama for full privacy. | 浏览器视频实时双语字幕，Whisper+SenseVoice 离线识别 + Silero VAD，本地 Ollama 翻译保护隐私 |
 
 ### Open Source STT Models | 开源 STT 模型
 
