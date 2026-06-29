@@ -350,6 +350,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [Retell AI](https://www.retellai.com/) | Conversational AI platform with enterprise-grade turn-taking management. | 企业级话轮管理 |
 | [Tavus](https://www.tavus.io/) | Real-time conversational video API. Transformer-based turn detection, multimodal video+voice. | 视频+语音多模态 |
 | [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/geneffic/unpod) |
+| [Hermes](https://buildwithhermes.com) | The operating platform for AI voice agencies. Deploy white-label voice agents with built-in CRM, campaign orchestration, and usage-based billing, replacing the Retell/VAPI plus CRM, Zapier, Stripe and Twilio stack with one platform. From $149/mo, included minutes per plan. | 面向代理商的白标语音运营平台，自带 CRM、外呼活动与按量计费 |
 | [voicetest](https://github.com/voicetestdev/voicetest) | Test harness for voice agents. Import from Retell, VAPI, Bland, LiveKit. Run simulations. Evaluate with LLM judges. | 开源测试工具，多平台支持 |
 
 ### Technical Blogs & Documentation | 技术博客与文档
