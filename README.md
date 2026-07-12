@@ -142,7 +142,7 @@ Turn Detection/Endpointing determines when a user has finished speaking - a core
 OpenAI Whisper is the most powerful open-source speech recognition model, but doesn't natively support real-time streaming. The following projects implement streaming transcription:
 
 | Name | Stars | Description | Notes |
-|------|-------|----------|
+|------|-------|-------------|-------|
 | [WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) | ![GitHub Repo stars](https://badgen.net/github/stars/QuentinFuxa/WhisperLiveKit) | Real-time, fully local speech-to-text with speaker diarization; web UI plus FastAPI server, built on SimulStreaming/WhisperStreaming. | 同步实时语音转文字，含说话人分离，全本地可部署 |
 | [Whisper Streaming (UFAL)](https://github.com/ufal/whisper_streaming) | ![GitHub Repo stars](https://badgen.net/github/stars/ufal/whisper_streaming) | Whisper realtime streaming for long speech-to-text. Local agreement policy with self-adaptive latency. 3.3s latency. | 使用局部一致性策略，自适应延迟 |
 | [WhisperLive](https://github.com/collabora/WhisperLive) | ![GitHub Repo stars](https://badgen.net/github/stars/collabora/WhisperLive) | Nearly-live implementation of OpenAI's Whisper. TensorRT acceleration support. Browser extensions and iOS client. | 支持 TensorRT 加速和多平台 |
