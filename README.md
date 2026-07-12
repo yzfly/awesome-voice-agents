@@ -142,7 +142,7 @@ Turn Detection/Endpointing determines when a user has finished speaking - a core
 OpenAI Whisper is the most powerful open-source speech recognition model, but doesn't natively support real-time streaming. The following projects implement streaming transcription:
 
 | Name | Stars | Description | Notes |
-|------|-------|-------------|-------|
+|------|-------|----------|
 | [WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) | ![GitHub Repo stars](https://badgen.net/github/stars/QuentinFuxa/WhisperLiveKit) | Real-time, fully local speech-to-text with speaker diarization; web UI plus FastAPI server, built on SimulStreaming/WhisperStreaming. | 同步实时语音转文字，含说话人分离，全本地可部署 |
 | [Whisper Streaming (UFAL)](https://github.com/ufal/whisper_streaming) | ![GitHub Repo stars](https://badgen.net/github/stars/ufal/whisper_streaming) | Whisper realtime streaming for long speech-to-text. Local agreement policy with self-adaptive latency. 3.3s latency. | 使用局部一致性策略，自适应延迟 |
 | [WhisperLive](https://github.com/collabora/WhisperLive) | ![GitHub Repo stars](https://badgen.net/github/stars/collabora/WhisperLive) | Nearly-live implementation of OpenAI's Whisper. TensorRT acceleration support. Browser extensions and iOS client. | 支持 TensorRT 加速和多平台 |
@@ -378,6 +378,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [vibe](https://github.com/thewh1teagle/vibe) | ![GitHub Repo stars](https://badgen.net/github/stars/thewh1teagle/vibe) | Cross-platform offline audio/video transcription (90+ languages, diarization) with CLI and HTTP API. | 跨平台离线音视频转录，含 CLI 与 HTTP API |
 | [WhisperWriter](https://github.com/savbell/whisper-writer) | ![GitHub Repo stars](https://badgen.net/github/stars/savbell/whisper-writer) | Small Python dictation app: hotkey listens, then auto-types Whisper transcription into the active window. | 轻量 Python 听写，热键触发自动输入 |
 | [nerd-dictation](https://github.com/ideasman42/nerd-dictation) | ![GitHub Repo stars](https://badgen.net/github/stars/ideasman42/nerd-dictation) | Single-file, hackable offline speech-to-text for Linux using VOSK, with Python-based text post-processing. | 单文件可魔改的 Linux 离线听写 |
+| [PhoneMic](https://github.com/DJKING792/PhoneMic) | ![GitHub Repo stars](https://badgen.net/github/stars/DJKING792/PhoneMic) | Turn your phone into a wireless microphone — record in the phone browser over LAN HTTPS, transcribed by Xiaomi MiMo ASR and auto-pasted into the PC cursor. No app, no cable; Win/Mac/Linux. | 把手机变成电脑的无线麦克风：手机浏览器录音经局域网上传，小米 MiMo 识别后自动粘贴到光标，无需 App 与数据线，跨平台。 |
 | [wyoming-satellite](https://github.com/rhasspy/wyoming-satellite) | ![GitHub Repo stars](https://badgen.net/github/stars/rhasspy/wyoming-satellite) | Remote voice satellite (Wyoming protocol) for Home Assistant on Raspberry Pi with local wake-word detection. | Home Assistant 远程语音卫星，树莓派+本地唤醒词 |
 
 ---
