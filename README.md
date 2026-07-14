@@ -77,6 +77,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [RealtimeVoiceChat](https://github.com/KoljaB/RealtimeVoiceChat) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeVoiceChat) | Browser-to-Python stack for ~500ms natural spoken conversation with local LLMs (Ollama). Built on RealtimeSTT + RealtimeTTS. | 本地语音对话栈，约 500ms 延迟 |
 | [react-voice-agent](https://github.com/langchain-ai/react-voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/react-voice-agent) | LangChain official example wiring the OpenAI Realtime API into a tool-using ReAct-style voice agent over WebSockets. | LangChain 官方 React 风格语音 Agent 示例，接入 OpenAI Realtime API |
 | [voice-demo](https://github.com/langchain-ai/voice-demo) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/voice-demo) | LangChain official demo with three swappable voice-agent backends (LiveKit, OpenAI Realtime, Google ADK Live) sharing one console interface, each instrumented for LangSmith. | LangChain 官方:三种语音 Agent 后端(LiveKit/OpenAI Realtime/Google ADK Live)共享同一控制台，接入 LangSmith |
+| [Hail](https://github.com/hail-hq/hail) | ![GitHub Repo stars](https://badgen.net/github/stars/hail-hq/hail) | Self-hostable (AGPLv3) telephony + email layer for voice AI agents: give an agent a real phone number and inbox — place/receive calls (Twilio + realtime LLM) and send/receive email (AWS SES) as tool calls over a remote MCP server, CLI, SDK, or REST. | 面向语音 Agent 的自托管电话+邮件层，提供 MCP 远程服务，SMS 在路线图上 |
 
 ### Commercial Speech-to-Speech Platforms | 商业语音平台
 
