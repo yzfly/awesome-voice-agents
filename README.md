@@ -77,6 +77,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [RealtimeVoiceChat](https://github.com/KoljaB/RealtimeVoiceChat) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeVoiceChat) | Browser-to-Python stack for ~500ms natural spoken conversation with local LLMs (Ollama). Built on RealtimeSTT + RealtimeTTS. | 本地语音对话栈，约 500ms 延迟 |
 | [react-voice-agent](https://github.com/langchain-ai/react-voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/react-voice-agent) | LangChain official example wiring the OpenAI Realtime API into a tool-using ReAct-style voice agent over WebSockets. | LangChain 官方 React 风格语音 Agent 示例，接入 OpenAI Realtime API |
 | [voice-demo](https://github.com/langchain-ai/voice-demo) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/voice-demo) | LangChain official demo with three swappable voice-agent backends (LiveKit, OpenAI Realtime, Google ADK Live) sharing one console interface, each instrumented for LangSmith. | LangChain 官方:三种语音 Agent 后端(LiveKit/OpenAI Realtime/Google ADK Live)共享同一控制台，接入 LangSmith |
+| [Voice-First Wearables](https://github.com/prashibadkur11-creator/voice-first-wearables) | ![GitHub Repo stars](https://badgen.net/github/stars/prashibadkur11-creator/voice-first-wearables) | Voice-first auth + command library for AI-native wearables (smart glasses, earbuds, rings); enforces an assurance-level auth ladder and confirmation gates for irreversible commands via CI-checked YAML config. | 面向可穿戴设备的语音优先鉴权与指令库，分级信任与确认门控，CI 校验配置 |
 
 ### Commercial Speech-to-Speech Platforms | 商业语音平台
 
@@ -429,6 +430,7 @@ Curated resources for getting started and going deep with voice AI agents.
 | [LiveKit Blog: Transformer Turn Detection](https://blog.livekit.io/using-a-transformer-to-improve-end-of-turn-detection/) | Using transformers to improve endpointing. Technical details, performance comparison. | Transformer 改进端点检测 |
 | [Speechmatics: Semantic Turn Detection](https://blog.speechmatics.com/semantic-turn-detection) | Semantic turn detection with SLM. Implementation guide, threshold tuning. | 使用 SLM 的语义话轮检测 |
 | [Agora: TEN VAD & Turn Detection](https://www.agora.io/en/blog/making-voice-ai-agents-more-human-with-ten-vad-and-turn-detection/) | Making voice agents more human with TEN VAD and Turn Detection. | TEN 的 VAD 和话轮检测 |
+| [Voice AI UX Pattern Library](https://github.com/prashibadkur11-creator/voice-ai-ux-patterns) | Structured, forkable catalog of voice AI UX patterns (turn-taking, latency masking, barge-in, error recovery, persona consistency, context carryover), each entry pairing the recommended approach with its tempting anti-pattern. | 语音 AI UX 设计模式知识库，话轮、延迟掩饰、打断处理、错误恢复等，每条含反模式分析 |
 
 > 更多技术博客见上方 [Technical Blogs & Documentation](#technical-blogs--documentation--技术博客与文档) 小节。
 
