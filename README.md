@@ -77,6 +77,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [RealtimeVoiceChat](https://github.com/KoljaB/RealtimeVoiceChat) | ![GitHub Repo stars](https://badgen.net/github/stars/KoljaB/RealtimeVoiceChat) | Browser-to-Python stack for ~500ms natural spoken conversation with local LLMs (Ollama). Built on RealtimeSTT + RealtimeTTS. | 本地语音对话栈，约 500ms 延迟 |
 | [react-voice-agent](https://github.com/langchain-ai/react-voice-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/react-voice-agent) | LangChain official example wiring the OpenAI Realtime API into a tool-using ReAct-style voice agent over WebSockets. | LangChain 官方 React 风格语音 Agent 示例，接入 OpenAI Realtime API |
 | [voice-demo](https://github.com/langchain-ai/voice-demo) | ![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/voice-demo) | LangChain official demo with three swappable voice-agent backends (LiveKit, OpenAI Realtime, Google ADK Live) sharing one console interface, each instrumented for LangSmith. | LangChain 官方:三种语音 Agent 后端(LiveKit/OpenAI Realtime/Google ADK Live)共享同一控制台，接入 LangSmith |
+| [Article 50 voice-agent proof](https://github.com/stevenknowswhy/article50-voice-agent-proof) | ![GitHub Repo stars](https://badgen.net/github/stars/stevenknowswhy/article50-voice-agent-proof) | Secrets-free LiveKit and Vapi reference with AI disclosure, consent, opt-out guardrails, and deterministic call-lifecycle tests. | Article 50 工程控制参考；本地模拟器不创建真实电话资源 |
 
 ### Commercial Speech-to-Speech Platforms | 商业语音平台
 
