@@ -62,6 +62,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [EchoKit Server](https://github.com/second-state/echokit_server) | ![GitHub Repo stars](https://badgen.net/github/stars/second-state/echokit_server) | Open-source voice agent server connecting STT, LLM and TTS for the EchoKit hardware and any client; configurable, self-hostable. | 开源语音 Agent 服务端，串联 STT/LLM/TTS，可自托管 |
 | [adk-rust](https://github.com/zavora-ai/adk-rust) | ![GitHub Repo stars](https://badgen.net/github/stars/zavora-ai/adk-rust) | Rust Agent Development Kit with built-in realtime voice agent support for building and deploying AI agents. | Rust 版 Agent 开发套件，内置实时语音 Agent 支持 |
 | [flowcat](https://github.com/AreevAI/flowcat) | ![GitHub Repo stars](https://badgen.net/github/stars/AreevAI/flowcat) | Self-hosted native-Rust runtime for real-time voice agents: one binary in your own VPC or air-gapped, no hosted control plane, pipecat-compatible pipeline with in-process SIP/RTP. Apache-2.0. | 纯 Rust 实时语音 Agent 运行时，单二进制自托管于自有 VPC，pipecat 兼容，内置 SIP/RTP |
+| [twilio-realtime-agents](https://github.com/yakovsinwani/twilio-realtime-agents) | ![GitHub Repo stars](https://badgen.net/github/stars/yakovsinwani/twilio-realtime-agents) | Provider-agnostic TypeScript bridge from Twilio phone calls to realtime speech-to-speech APIs (OpenAI Realtime, xAI Grok Voice, Gemini Live). Multi-agent handoffs, tool execution strategies, mark-confirmed playback tracking, barge-in and hold audio. MIT. | 连接 Twilio 电话与实时语音模型（OpenAI/xAI/Gemini）的 TypeScript 桥接层，支持多 Agent 转接、工具策略、基于 mark 的播放追踪与精确打断 |
 
 ### Specialized Solutions | 专用解决方案
 
