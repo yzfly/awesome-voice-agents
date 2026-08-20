@@ -62,6 +62,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [EchoKit Server](https://github.com/second-state/echokit_server) | ![GitHub Repo stars](https://badgen.net/github/stars/second-state/echokit_server) | Open-source voice agent server connecting STT, LLM and TTS for the EchoKit hardware and any client; configurable, self-hostable. | 开源语音 Agent 服务端，串联 STT/LLM/TTS，可自托管 |
 | [adk-rust](https://github.com/zavora-ai/adk-rust) | ![GitHub Repo stars](https://badgen.net/github/stars/zavora-ai/adk-rust) | Rust Agent Development Kit with built-in realtime voice agent support for building and deploying AI agents. | Rust 版 Agent 开发套件，内置实时语音 Agent 支持 |
 | [flowcat](https://github.com/AreevAI/flowcat) | ![GitHub Repo stars](https://badgen.net/github/stars/AreevAI/flowcat) | Self-hosted native-Rust runtime for real-time voice agents: one binary in your own VPC or air-gapped, no hosted control plane, pipecat-compatible pipeline with in-process SIP/RTP. Apache-2.0. | 纯 Rust 实时语音 Agent 运行时，单二进制自托管于自有 VPC，pipecat 兼容，内置 SIP/RTP |
+| [Gradbot](https://github.com/gradium-ai/gradbot) | ![GitHub Repo stars](https://badgen.net/github/stars/gradium-ai/gradbot) | Open-source Rust framework to prototype voice agents on Gradium TTS/STT APIs. Apache-2.0. | Rust 开源框架，基于 Gradium API 快速搭建语音智能体 |
 
 ### Specialized Solutions | 专用解决方案
 
@@ -132,6 +133,7 @@ Turn Detection/Endpointing determines when a user has finished speaking - a core
 | [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) | Semantic VAD with context-aware turn detection. Built into end-to-end model. | 上下文感知，端到端 |
 | [AssemblyAI Universal-Streaming](https://www.assemblyai.com/blog/turn-detection-endpointing-voice-agent) | Intelligent endpointing with semantic analysis. Real-time streaming transcription. | 语义端点检测，实时流式 |
 | [Retell AI Turn-Taking](https://www.retellai.com/) | Enterprise-grade turn-taking management. Adaptive endpointing, handles complex noise environments. | 企业级方案，适应噪音环境 |
+| [Gradium Semantic VAD](https://gradium.ai/blog/semantic-vad) | Semantic VAD built into streaming STT. Multi-horizon end-of-turn probabilities every 80ms, tunable endpointing delay. | 语义 VAD，80ms 多时域端点预测，可调延迟 |
 
 ---
 
@@ -183,6 +185,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [AssemblyAI](https://www.assemblyai.com/) | Speech AI API with Universal-Streaming model. Immutable transcription, intelligent endpointing. | 不可变转录，智能端点检测 |
 | [Speechmatics](https://www.speechmatics.com/) | Real-time ASR (Ursa 2) with sub-1s latency, strong accent/multilingual robustness, on-prem options. | 企业级实时 ASR，口音鲁棒，支持私有化 |
 | [Groq Whisper](https://groq.com/) | Whisper-large-v3/-turbo served on Groq LPUs for ultra-low-latency, very high-throughput transcription/translation. | Groq LPU 跑 Whisper，超低延迟高吞吐 |
+| [Gradium](https://gradium.ai/) | Streaming STT with built-in semantic VAD. End-of-turn probabilities every 80ms for voice agents. | 流式 STT，内置语义 VAD，80ms 话末概率 |
 
 ---
 
@@ -243,6 +246,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [MiniMax (Hailuo) Speech](https://www.minimax.io/audio) | Speech-02/2.5/2.6 series, 40+ languages, 100+ voices + cloning; topped Speech Arena above OpenAI/ElevenLabs. | MiniMax 海螺，40+ 语种，多榜单第一 |
 | [Rime](https://rime.ai/) | Enterprise TTS for real-time voice agents; Mist v2 ~70-225ms TTFA, Arcana v2 for expressive paralinguistic voices. | 主打实时语音 Agent，极低延迟，发音确定性强 |
 | [PlayAI (PlayHT)](https://play.ai/) | Conversational-AI-focused API; Play 3.0 Mini ~143ms TTFB multilingual streaming, PlayDialog for two-speaker dialogue. | 面向对话 AI，低延迟流式，双人对话 |
+| [Gradium](https://gradium.ai/) | Real-time streaming TTS with instant voice cloning. 158ms P50 time to first audio. | 实时流式 TTS，P50 首音频 158ms，即时声音克隆 |
 
 ---
 
