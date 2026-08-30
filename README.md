@@ -68,6 +68,8 @@ Add WeChat | 添加江树微信: **1796060717**
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [sipgate SIP Stream Bridge](https://github.com/sipgate/sipgate-sip-stream-bridge) | ![GitHub Repo stars](https://badgen.net/github/stars/sipgate/sipgate-sip-stream-bridge) | Bridge that emulates the Twilio Media Streams WebSocket protocol on top of plain SIP, so Twilio-targeted voice agents can run on any SIP trunk. MIT, Go. | sipgate 官方的 SIP ↔ Twilio Media Streams 协议桥，让为 Twilio 写的语音 Agent 直接跑在普通 SIP 线路上 |
+| [parlor](https://github.com/fikrikarim/parlor) | ![GitHub Repo stars](https://badgen.net/github/stars/fikrikarim/parlor) | On-device, real-time multimodal AI with GPT-Live-like features. Apache-2.0. | 端侧实时多模态语音 AI，对标 GPT-Live 的开源实现 |
 | [airi](https://github.com/moeru-ai/airi) | ![GitHub Repo stars](https://badgen.net/github/stars/moeru-ai/airi) | Self-hosted, local-first AI companion (VTuber-style) with real-time voice chat; runs in browser/desktop, drives Live2D/VRM avatars and can even play games. | 自托管 AI 伴侣，支持实时语音聊天与虚拟形象 |
 | [warashi](https://github.com/inni918/warashi) | ![GitHub Repo stars](https://badgen.net/github/stars/inni918/warashi) | Free, open-source desktop AI companion with a Live2D avatar, natural barge-in voice chat (ASR/TTS), long-term memory and proactive conversation; bring-your-own LLM, double-click to run. | 开箱即用的桌面 AI 伴侣，Live2D 形象+可打断的自然语音对话、长期记忆与主动发起对话，自带 ASR/TTS |
 | [talk-to-fengge](https://github.com/YeJe-cpu/talk-to-fengge) | ![GitHub Repo stars](https://badgen.net/github/stars/YeJe-cpu/talk-to-fengge) | Real-time voice-chat agent fusing voice cloning + personality injection + live conversation (LiveKit + STT + LLM + VoxCPM cloning TTS), engineering latency under 1s; swap in anyone's voice and persona. | 把音色克隆+人格注入+实时对话合一的语音 Agent，工程延迟 <1 秒，可替换为任意人的声音与性格 |
@@ -160,6 +162,8 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) | ![GitHub Repo stars](https://badgen.net/github/stars/handy-computer/transcribe.cpp) | ggml speech-to-text inference for 16+ model families in one C++ engine. MIT. | 一个 C++ 引擎跑 16+ 种 STT 模型家族 |
+| [voxtral.c](https://github.com/antirez/voxtral.c) | ![GitHub Repo stars](https://badgen.net/github/stars/antirez/voxtral.c) | antirez's pure-C inference of Mistral Voxtral Realtime 4B STT. MIT. | Redis 作者用纯 C 实现的 Voxtral Realtime 4B 推理 |
 | [Whisper](https://github.com/openai/whisper) | ![GitHub Repo stars](https://badgen.net/github/stars/openai/whisper) | OpenAI's large-scale weakly-supervised speech recognition model; robust multilingual ASR and translation, the de-facto open-source STT baseline. | ⭐ 大规模弱监督鲁棒语音识别，开源 STT 事实标准 |
 | [DeepSpeech](https://github.com/mozilla/DeepSpeech) | ![GitHub Repo stars](https://badgen.net/github/stars/mozilla/DeepSpeech) | Open-source speech-to-text engine that runs offline and in real time on-device, from embedded to server. | Mozilla 开源离线设备端实时 STT 引擎（已停维护）|
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | ![GitHub Repo stars](https://badgen.net/github/stars/SYSTRAN/faster-whisper) | Faster Whisper transcription with CTranslate2. Up to 4x faster than openai/whisper with less memory. INT8 quantization support. | ⭐ 工业级首选，4 倍加速，低内存 |
@@ -197,6 +201,10 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/OpenMOSS/MOSS-TTS) | Open-source speech and sound generation model family from MOSI.AI / OpenMOSS (Fudan). Apache-2.0. | 复旦 OpenMOSS 开源的语音与音效生成模型家族 |
+| [Miso TTS](https://github.com/MisoLabsAI/MisoTTS) | ![GitHub Repo stars](https://badgen.net/github/stars/MisoLabsAI/MisoTTS) | 8B-parameter highly emotive text-to-speech model. | 8B 参数高表现力情感 TTS |
+| [Confucius4-TTS](https://github.com/netease-youdao/Confucius4-TTS) | ![GitHub Repo stars](https://badgen.net/github/stars/netease-youdao/Confucius4-TTS) | NetEase Youdao multilingual, cross-lingual zero-shot TTS engine. | 网易有道多语种零样本 TTS |
+| [faster-qwen3-tts](https://github.com/andimarafioti/faster-qwen3-tts) | ![GitHub Repo stars](https://badgen.net/github/stars/andimarafioti/faster-qwen3-tts) | Real-time streaming inference for Qwen3-TTS. MIT. | Qwen3-TTS 的实时流式推理实现 |
 | [Voicebox](https://github.com/jamiepine/voicebox) | ![GitHub Repo stars](https://badgen.net/github/stars/jamiepine/voicebox) | Local-first open-source voice cloning & synthesis studio. 5 TTS engines, 23 languages, timeline editor, REST API. Open-source ElevenLabs alternative. | ⭐ 本地优先，支持声音克隆、多轨编辑、后处理音效。[官网](https://voicebox.sh) |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) | ![GitHub Repo stars](https://badgen.net/github/stars/OpenBMB/VoxCPM) | Tokenizer-free multilingual TTS supporting creative voice design and high-fidelity voice cloning. | OpenBMB 出品，免 tokenizer，多语种创意音色+高保真克隆 |
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | ![GitHub Repo stars](https://badgen.net/github/stars/RVC-Boss/GPT-SoVITS) | Few-shot voice cloning TTS. High-quality synthesis. | 少样本语音克隆 |
@@ -237,6 +245,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Description | Notes |
 |------|-------------|-------|
+| [Gandr](https://gandr.ai/) | TTS API built for voice agents: one voice across 23 languages, watermark on every render, Python/JS SDKs, LiveKit plugin and MCP server. | 面向语音 Agent 的 TTS API，23 种语言，附 LiveKit 插件与 MCP server |
 | [ElevenLabs](https://elevenlabs.io/) | High-quality AI voice generation. Ultra-realistic speech, voice cloning, multi-language support. | 最高质量的商业 TTS |
 | [PHANTOM VOICES](https://auto-business-agent.replit.app/portfolio) | 10 free professional AI voice clones via public REST API. Zero-cost, 29 platform configs (Vapi, Retell, Bland, LangChain, HeyGen, etc). AI-powered recommendation endpoint. Multilingual (9+ languages). | 免费专业 AI 语音克隆 API |
 | [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) | OpenAI's text-to-speech API. High-quality, low-latency, multiple voice options. | 高质量低延迟 |
@@ -346,6 +355,9 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [SGLang-Omni](https://github.com/sgl-project/sglang-omni) | ![GitHub Repo stars](https://badgen.net/github/stars/sgl-project/sglang-omni) | High-performance serving framework for audio models (TTS, ASR) and unified multimodal models. Apache-2.0. | SGLang 出品的音频 / 全模态模型高性能推理服务框架 |
+| [speech-swift](https://github.com/soniqo/speech-swift) | ![GitHub Repo stars](https://badgen.net/github/stars/soniqo/speech-swift) | AI speech toolkit for Apple Silicon: ASR, TTS, speech-to-speech, VAD, diarization on MLX / CoreML. | Apple Silicon 语音工具箱（MLX / CoreML） |
+| [ghost-pepper](https://github.com/matthartman/ghost-pepper) | ![GitHub Repo stars](https://badgen.net/github/stars/matthartman/ghost-pepper) | 100% private on-device STT and meeting transcription for macOS. | macOS 纯本地会议转写 |
 | [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) | ![GitHub Repo stars](https://badgen.net/github/stars/PaddlePaddle/PaddleSpeech) | Easy-to-use all-in-one speech toolkit on PaddlePaddle covering streaming ASR, TTS, speaker verification and speech translation. | 百度飞桨易用语音工具箱，流式 ASR/TTS/声纹/语音翻译 |
 | [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | ![GitHub Repo stars](https://badgen.net/github/stars/k2-fsa/sherpa-onnx) | Offline/real-time STT, TTS, speaker diarization, VAD and keyword spotting from next-gen Kaldi; runs on 10+ platforms with many language bindings. | 下一代 Kaldi 出品，离线 STT/TTS/说话人分离/VAD，跨平台 |
 | [sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) | ![GitHub Repo stars](https://badgen.net/github/stars/k2-fsa/sherpa-ncnn) | Real-time offline speech recognition with VAD from next-gen Kaldi, built on ncnn; no internet needed, runs cross-platform on Linux/macOS/Windows/Android/iOS/embedded. | 下一代 Kaldi 出品，基于 ncnn 的离线实时语音识别+VAD，跨平台含嵌入式 |
@@ -371,6 +383,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ![GitHub Repo stars](https://badgen.net/github/stars/debpalash/VoiceStudio) | Open-source, fully-local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation. AGPL-3.0. | 完全本地的开源 ElevenLabs 替代：克隆、声音设计、视频配音 |
 | [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | ![GitHub Repo stars](https://badgen.net/github/stars/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice from 5 seconds of audio and generate speech in real time; the classic SV2TTS-based voice cloning project. | ⭐ 经典项目，5 秒克隆音色实时生成语音 |
 | [OpenVoice](https://github.com/myshell-ai/OpenVoice) | ![GitHub Repo stars](https://badgen.net/github/stars/myshell-ai/OpenVoice) | Instant voice cloning audio foundation model by MIT + MyShell; flexible style control, cross-lingual. MIT. | MIT×MyShell 即时声音克隆基础模型 |
 | [RVC WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | ![GitHub Repo stars](https://badgen.net/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Train a good voice-conversion model from ≤10 min of data. Hugely popular. MIT. | ≤10 分钟数据训练高质量变声模型 |
