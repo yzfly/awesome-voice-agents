@@ -379,6 +379,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [AI Dictation](https://github.com/writingmate/aidictation) | ![GitHub Repo stars](https://badgen.net/github/stars/writingmate/aidictation) | MIT-licensed voice-to-text app for macOS, Windows, iOS and Android, with offline recognition on supported devices and optional cloud transcription and cleanup. | MIT 开源跨平台语音输入；支持设备可用离线识别，也可选云端转写和润色。 |
 | [Handy](https://github.com/cjpais/Handy) | ![GitHub Repo stars](https://badgen.net/github/stars/cjpais/Handy) | Free, fully-offline push-to-talk dictation app (Tauri/Rust) for Win/Mac/Linux using Whisper + Parakeet, auto-pasting into any field. | 全离线按键说话听写，跨平台，自动粘贴 |
 | [vibe](https://github.com/thewh1teagle/vibe) | ![GitHub Repo stars](https://badgen.net/github/stars/thewh1teagle/vibe) | Cross-platform offline audio/video transcription (90+ languages, diarization) with CLI and HTTP API. | 跨平台离线音视频转录，含 CLI 与 HTTP API |
 | [WhisperWriter](https://github.com/savbell/whisper-writer) | ![GitHub Repo stars](https://badgen.net/github/stars/savbell/whisper-writer) | Small Python dictation app: hotkey listens, then auto-types Whisper transcription into the active window. | 轻量 Python 听写，热键触发自动输入 |
