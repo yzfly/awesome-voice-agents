@@ -422,6 +422,21 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/geneffic/unpod) |
 | [voicetest](https://github.com/voicetestdev/voicetest) | Test harness for voice agents. Import from Retell, VAPI, Bland, LiveKit. Run simulations. Evaluate with LLM judges. | 开源测试工具，多平台支持 |
 
+### Evaluation & Benchmarking | 评测与基准
+
+Use these resources to choose an evaluation layer that matches the user outcome. Tool-call accuracy, end-to-end task completion, spoken interaction quality, and caller latency answer different questions and should be reported separately.
+
+选择与用户结果匹配的评测层。工具调用准确率、端到端任务完成、语音交互质量和呼叫延迟回答的是不同问题，应分别报告。
+
+| Name | Description | Notes |
+|------|-------------|-------|
+| [Voice Agent Benchmark Landscape](https://github.com/Sophon-LLC/voice-agent-benchmark-landscape) | Source-audited map of 13 public benchmarks with machine-readable capability and license fields, plus a practical selection guide. | 13 个公开基准的来源审计地图；含机器可读能力/许可字段与选型指南 |
+| [VoiceAgentBench](https://github.com/ola-krutrim/VoiceAgentBench) | Audio-backed benchmark for single, parallel, sequential, multi-turn, and safety-focused tool calls. | 覆盖单工具、并行/顺序调用、多轮与安全拒绝 |
+| [EVA](https://github.com/ServiceNow/eva) | End-to-end framework scoring both task accuracy and spoken conversation experience over complete voice-agent interactions. | 同时评测完整语音交互的任务准确性与对话体验 |
+| [VoiceComputerBench / TalkAct](https://github.com/19PINE-AI/TalkAct) | Real-time voice conversations coupled to Playwright browser tasks, with verifiable task outcomes. | 实时语音对话结合浏览器操作，并验证任务结果 |
+| [tau2-bench / tau-Voice](https://github.com/sierra-research/tau2-bench) | Stateful domain tasks with tools, simulated users, verifiable completion, and a full-duplex voice mode. | 状态化领域任务、工具、模拟用户、可验证完成与全双工语音 |
+| [OpenBenchmarks Voice Agent Latency](https://github.com/openbenchmarks-labs/voice-agent-latency) | Reproducible caller-perceived time-to-first-audio benchmark measured from real phone-call recordings. | 基于真实电话录音、可复现的首音频等待时间评测 |
+
 ### Technical Blogs & Documentation | 技术博客与文档
 
 | Name | Description | Notes |
