@@ -17,6 +17,7 @@ Add WeChat | 添加江树微信: **1796060717**
 ## Contents | 目录
 
 - [Frameworks & Platforms | 框架与平台](#frameworks--platforms--框架与平台)
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 - [VAD (Voice Activity Detection) | 语音活动检测](#vad-voice-activity-detection--语音活动检测)
 - [Turn Detection & Endpointing | 话轮检测与端点检测](#turn-detection--endpointing--话轮检测与端点检测)
 - [STT (Speech-to-Text) | 语音转文本](#stt-speech-to-text--语音转文本)
