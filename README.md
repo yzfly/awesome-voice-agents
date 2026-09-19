@@ -450,6 +450,7 @@ Curated resources for getting started and going deep with voice AI agents.
 | [LiveKit Blog: Transformer Turn Detection](https://blog.livekit.io/using-a-transformer-to-improve-end-of-turn-detection/) | Using transformers to improve endpointing. Technical details, performance comparison. | Transformer 改进端点检测 |
 | [Speechmatics: Semantic Turn Detection](https://blog.speechmatics.com/semantic-turn-detection) | Semantic turn detection with SLM. Implementation guide, threshold tuning. | 使用 SLM 的语义话轮检测 |
 | [Agora: TEN VAD & Turn Detection](https://www.agora.io/en/blog/making-voice-ai-agents-more-human-with-ten-vad-and-turn-detection/) | Making voice agents more human with TEN VAD and Turn Detection. | TEN 的 VAD 和话轮检测 |
+| [Georgian Voice AI Readiness Checklist: Booking Safety](https://github.com/omo-ge/georgian-voice-ai-readiness-checklist/tree/main/examples/booking-safety) | Twelve synthetic Georgian–English booking-dialogue cases with an offline validator and a guide to consent, stale availability and uncertain write outcomes. Educational examples, not a speech-recognition or product benchmark. | 格鲁吉亚语和英语示例；合成教学材料，非产品性能基准。 |
 
 > 更多技术博客见上方 [Technical Blogs & Documentation](#technical-blogs--documentation--技术博客与文档) 小节。
 
