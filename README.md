@@ -92,6 +92,7 @@ Add WeChat | 添加江树微信: **1796060717**
 
 | Name | Description | Notes |
 |------|-------------|-------|
+| [Kalyvox](https://kalyvox.ai/en/ai-answering-service) | AI receptionist platform for SMBs handling inbound calls, qualification, appointment booking, routing and transfers. | 24/7 answering, multilingual conversations, Google Calendar and Zapier integrations; built in France. |
 | [Hume EVI](https://www.hume.ai/empathic-voice-interface) | Empathic speech-to-speech foundation model (EVI 3) that reads and responds to emotion/prosody. 100,000+ customizable voices. | 共情语音模型，感知并回应情绪语调 |
 | [Amazon Nova Sonic](https://aws.amazon.com/ai/generative-ai/nova/) | AWS Bedrock speech-to-speech foundation model with polyglot voices, async tool calling, large context, LiveKit/Pipecat integrations. | AWS 语音到语音大模型，多语种同声、异步工具调用 |
 | [Speechmatics Flow](https://www.speechmatics.com/flow) | Conversational voice-agent API built on high-accuracy multilingual ASR with sentiment/tone awareness. | 基于高精度多语种 ASR 的对话语音 Agent API |
