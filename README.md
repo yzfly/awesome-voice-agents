@@ -268,6 +268,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Rime](https://rime.ai/) | Enterprise TTS for real-time voice agents; Mist v2 ~70-225ms TTFA, Arcana v2 for expressive paralinguistic voices. | 主打实时语音 Agent，极低延迟，发音确定性强 |
 | [PlayAI (PlayHT)](https://play.ai/) | Conversational-AI-focused API; Play 3.0 Mini ~143ms TTFB multilingual streaming, PlayDialog for two-speaker dialogue. | 面向对话 AI，低延迟流式，双人对话 |
 | [Gradium](https://gradium.ai/) | Real-time streaming TTS with instant voice cloning. 158ms P50 time to first audio. | 实时流式 TTS，P50 首音频 158ms，即时声音克隆 |
+| [Lokutor](https://lokutor.com/) | Real-time TTS API for voice agents; CPU-capable model (on-prem/edge deployable), GPU-hosted at scale. REST and WebSocket synthesis, 10 built-in voices, 9 supported languages. [API docs](https://docs.lokutor.com/) | 面向语音 Agent 的实时 TTS API，模型可在 CPU 上运行（支持本地/边缘部署），云端托管使用 GPU 以支持高并发。支持 REST 和 WebSocket，10 种内置声音、9 种语言 |
 
 ---
 
