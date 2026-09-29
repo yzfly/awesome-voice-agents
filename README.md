@@ -446,6 +446,7 @@ Use these resources to choose an evaluation layer that matches the user outcome.
 | [VoiceComputerBench / TalkAct](https://github.com/19PINE-AI/TalkAct) | Real-time voice conversations coupled to Playwright browser tasks, with verifiable task outcomes. | 实时语音对话结合浏览器操作，并验证任务结果 |
 | [tau2-bench / tau-Voice](https://github.com/sierra-research/tau2-bench) | Stateful domain tasks with tools, simulated users, verifiable completion, and a full-duplex voice mode. | 状态化领域任务、工具、模拟用户、可验证完成与全双工语音 |
 | [OpenBenchmarks Voice Agent Latency](https://github.com/openbenchmarks-labs/voice-agent-latency) | Reproducible caller-perceived time-to-first-audio benchmark measured from real phone-call recordings. | 基于真实电话录音、可复现的首音频等待时间评测 |
+| [TRG (Timing-Recovery-Grounded)](https://github.com/shivamnegi92/voice-agent-eval-corpus) | Minimum reporting standard, not a benchmark itself: a compliance checker and shared-evaluator leaderboard that won't certify a report staying silent on an axis its deployment actually exercises (e.g. recovery after interruption). Ships with a 41-source verified corpus and a live [demo](https://huggingface.co/spaces/shivamnegi92/trg-voice-agent-eval). | 最小上报标准（非基准本身）：合规检查器+统一评测者排行榜，拒绝认证遗漏关键轴（如打断后恢复）的报告；附 41 篇来源的已验证语料库 |
 
 ### Technical Blogs & Documentation | 技术博客与文档
 
