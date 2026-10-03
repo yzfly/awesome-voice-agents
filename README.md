@@ -331,6 +331,7 @@ Talk to (and be talked to by) AI coding assistants like Claude Code, Cursor and 
 | [mcp-tts](https://github.com/blacktop/mcp-tts) | ![GitHub Repo stars](https://badgen.net/github/stars/blacktop/mcp-tts) | MCP server exposing multiple TTS backends (ElevenLabs, OpenAI, Google, macOS `say`) to agents. Go, MIT. | 一个 MCP 接多家 TTS（含本地 say），让 Agent 开口 |
 | [mcp-server-whisper](https://github.com/arcaputo3/mcp-server-whisper) | ![GitHub Repo stars](https://badgen.net/github/stars/arcaputo3/mcp-server-whisper) | MCP server for audio transcription/processing using OpenAI Whisper + GPT-4o audio. MIT. | 用 Whisper/GPT-4o 做转写的 MCP，给 Agent 加"耳朵" |
 | [claude-code-tts](https://github.com/ybouhjira/claude-code-tts) | ![GitHub Repo stars](https://badgen.net/github/stars/ybouhjira/claude-code-tts) | TTS MCP plugin specifically for Claude Code — audio feedback while coding via OpenAI TTS, non-blocking worker pool. MIT. | 专为 Claude Code 的 TTS 插件，编码时听语音反馈 |
+| [CallForMe](https://callforme.tel) | Hosted | Remote MCP server (`https://callforme.tel/mcp`, OAuth) that lets Claude, ChatGPT, Cursor or any MCP agent phone a business: works phone menus, waits on hold, asks the agent mid-call, returns transcript + answers. Paid per answered call; free demo line. | 让 Agent 替你给商家打电话（询价、订位、取消、排队等待），通话中可回问 Agent，返回通话记录与结构化答案 |
 
 ### Coding Agent Voice Tools | 编程 Agent 语音工具
 
