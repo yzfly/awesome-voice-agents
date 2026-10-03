@@ -432,6 +432,14 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [Unpod](https://unpod.ai) | Voice infrastructure platform for building AI-native phone and messaging agents. Handles real-time call routing, low-latency speech pipelines, and telephony + SMS automation. | 电话+消息自动化，AI 原生语音基础设施 \| [GitHub](https://github.com/geneffic/unpod) |
 | [voicetest](https://github.com/voicetestdev/voicetest) | Test harness for voice agents. Import from Retell, VAPI, Bland, LiveKit. Run simulations. Evaluate with LLM judges. | 开源测试工具，多平台支持 |
 
+### Payments & Settlement | 支付与结算
+
+| Name | Description | Notes |
+|------|-------------|-------|
+| [nano-invoice](https://github.com/dhyabi2/nano-invoice) | Bind an XNO payment to the order it pays for (Nano has no memo): one invoice per order, a unique tagged amount, a block settles one invoice, refunds to the real sender, faucet/own sends never counted as income. 40 tests, live node read verified. | XNO 支付订单绑定库 |
+| [dual-rail](https://github.com/dhyabi2/dual-rail) | Add an XNO settlement leg beside an existing USDC/x402 rail, never instead of it. 34 Python + 22 Node tests, a 7/7 "both rails live, existing rails unchanged" check. | 在 USDC 旁增加 XNO 结算通道 |
+| [nano-finality-proof](https://github.com/dhyabi2/nano-finality-proof) | Measure how long an XNO payment takes to confirm on a node you run, so an agent knows when a per-call voice payment is safe to treat as final. 54 unit + 67 e2e checks. | XNO 支付确认时长测量工具 |
+
 ### Evaluation & Benchmarking | 评测与基准
 
 Use these resources to choose an evaluation layer that matches the user outcome. Tool-call accuracy, end-to-end task completion, spoken interaction quality, and caller latency answer different questions and should be reported separately.
