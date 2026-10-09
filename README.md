@@ -170,6 +170,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 
 | Name | Stars | Description | Notes |
 |------|-------|-------------|-------|
+| [tiny-audio](https://github.com/alexkroman/tiny-audio) | ![GitHub Repo stars](https://badgen.net/github/stars/alexkroman/tiny-audio) | Minimal, hackable PyTorch/HF Transformers codebase for training LLM-based ASR: frozen Granite Speech encoder + Qwen3.5-2B (LoRA) via a small projector, ~80M trained params; 1.8% WER LibriSpeech test-clean, word timestamps, diarization, batched inference server, free 3.5-hour course. MIT. | 基于LLM的可训练语音识别，含免费课程 |
 | [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) | ![GitHub Repo stars](https://badgen.net/github/stars/handy-computer/transcribe.cpp) | ggml speech-to-text inference for 16+ model families in one C++ engine. MIT. | 一个 C++ 引擎跑 16+ 种 STT 模型家族 |
 | [voxtral.c](https://github.com/antirez/voxtral.c) | ![GitHub Repo stars](https://badgen.net/github/stars/antirez/voxtral.c) | antirez's pure-C inference of Mistral Voxtral Realtime 4B STT. MIT. | Redis 作者用纯 C 实现的 Voxtral Realtime 4B 推理 |
 | [Whisper](https://github.com/openai/whisper) | ![GitHub Repo stars](https://badgen.net/github/stars/openai/whisper) | OpenAI's large-scale weakly-supervised speech recognition model; robust multilingual ASR and translation, the de-facto open-source STT baseline. | ⭐ 大规模弱监督鲁棒语音识别，开源 STT 事实标准 |
