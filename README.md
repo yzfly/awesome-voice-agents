@@ -137,6 +137,7 @@ Turn Detection/Endpointing determines when a user has finished speaking - a core
 | [Smart Turn (Pipecat)](https://github.com/pipecat-ai/smart-turn) | ![GitHub Repo stars](https://badgen.net/github/stars/pipecat-ai/smart-turn) | Open-source turn detection model (BSD 2-clause). Supports 23 languages. Semantic and audio feature-based. No GPU required for real-time inference. | 完全开源，提供 Fal 托管服务（免费）|
 | [LiveKit Turn Detector](https://github.com/livekit/agents) | ![GitHub Repo stars](https://badgen.net/github/stars/livekit/agents) | Transformer-based semantic analysis. 85% true positive rate, ~50ms inference time. | 基于 Transformer，结合 VAD 效果最佳 |
 | [TEN Turn Detection](https://github.com/TEN-framework/ten-turn-detection) | ![GitHub Repo stars](https://badgen.net/github/stars/TEN-framework/ten-turn-detection) | Open-source semantic turn-detection model for full-duplex dialogue; classifies finished/unfinished/wait utterances to enable natural interruption and barge-in. | TEN 团队全双工对话话轮检测模型，语义判断说完/未说完，支持自然打断 |
+| [DuplexJev](https://github.com/adventists-ai/duplexjev) | ![GitHub Repo stars](https://badgen.net/github/stars/adventists-ai/duplexjev) | Open-weights speech LLM (4B / 32B) that reads the turn state (finished / still talking / backchannel / asking to wait) plus emotion, non-verbal sounds and barge-in from raw audio in one forward pass, no ASR. LiveKit and Pipecat plugins. | 中英双语；一次前向同时给出话轮、情绪、笑声、打断等判断，不需要转写 |
 
 ### Commercial Solutions | 商业解决方案
 
