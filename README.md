@@ -502,6 +502,7 @@ Curated resources for getting started and going deep with voice AI agents.
 
 - [awesome-voice-conversion](https://github.com/JeffC0628/awesome-voice-conversion)
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
+- [ianwieds/awesome-ai-agents](https://github.com/ianwieds/awesome-ai-agents)
 
 ---
 
