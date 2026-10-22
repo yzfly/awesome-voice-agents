@@ -456,6 +456,7 @@ Use these resources to choose an evaluation layer that matches the user outcome.
 
 | Name | Description | Notes |
 |------|-------------|-------|
+| [ContextAI MCP](https://github.com/indivatools/contextqa-skills/blob/4a67f1b297ba18f8253eaaf0f2195437965715b8/docs/contextai-mcp.md) | Hosted evaluation service for text and voice agents; configure scenarios, personas and metrics, start runs and inspect results through MCP with browser OAuth. | 商业托管服务，支持文本与语音智能体评测；需 ContextAI 工作区和 OAuth 登录 |
 | [Voice Agent Benchmark Landscape](https://github.com/Sophon-LLC/voice-agent-benchmark-landscape) | Source-audited map of 13 public benchmarks with machine-readable capability and license fields, plus a practical selection guide. | 13 个公开基准的来源审计地图；含机器可读能力/许可字段与选型指南 |
 | [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) | Tests chat, voice and phone agents through simulated multi-turn conversations and real inbound/outbound phone calls, scored on call-quality metrics. Imports tool calls from Vapi, Retell, ElevenLabs and Agentforce for validation. | 商业平台，真实电话与模拟多轮对话测试聊天/语音/电话 Agent，可校验 Vapi/Retell/ElevenLabs/Agentforce 的工具调用 |
 | [VoiceAgentBench](https://github.com/ola-krutrim/VoiceAgentBench) | Audio-backed benchmark for single, parallel, sequential, multi-turn, and safety-focused tool calls. | 覆盖单工具、并行/顺序调用、多轮与安全拒绝 |
@@ -541,3 +542,4 @@ If this list helps you, please give it a ⭐️!
 
 Welcome to exchange and discuss Voice Agent technology through Issues or PRs!  
 欢迎通过 Issues 或 PR 交流讨论 Voice Agent 相关技术！
+
