@@ -472,6 +472,7 @@ Use these resources to choose an evaluation layer that matches the user outcome.
 | [tau2-bench / tau-Voice](https://github.com/sierra-research/tau2-bench) | Stateful domain tasks with tools, simulated users, verifiable completion, and a full-duplex voice mode. | 状态化领域任务、工具、模拟用户、可验证完成与全双工语音 |
 | [OpenBenchmarks Voice Agent Latency](https://github.com/openbenchmarks-labs/voice-agent-latency) | Reproducible caller-perceived time-to-first-audio benchmark measured from real phone-call recordings. | 基于真实电话录音、可复现的首音频等待时间评测 |
 | [TRG (Timing-Recovery-Grounded)](https://github.com/shivamnegi92/voice-agent-eval-corpus) | Minimum reporting standard, not a benchmark itself: a compliance checker and shared-evaluator leaderboard that won't certify a report staying silent on an axis its deployment actually exercises (e.g. recovery after interruption). Ships with a 128-source corpus (v1.1.1) and a live [demo](https://huggingface.co/spaces/shivamnegi92/trg-voice-agent-eval). | 最小上报标准（非基准本身）：合规检查器+统一评测者排行榜，拒绝认证遗漏关键轴（如打断后恢复）的报告；附 v1.1.1 的 128 篇来源语料库 |
+| [ru-speech-bench](https://github.com/meshoklv/ru-speech-bench) | Hands-on benchmark of speech engines for Russian voice agents (STT, TTS, turn detection) with scripts, raw numbers, hardware and licenses | 俄语语音智能体的语音引擎实测（STT、TTS、轮次检测），附脚本、原始数据、硬件与许可证 |
 
 ### Technical Blogs & Documentation | 技术博客与文档
 
