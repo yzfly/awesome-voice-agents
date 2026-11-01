@@ -281,6 +281,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Lokutor](https://lokutor.com/) | Hosted real-time TTS API for voice agents, with WebSocket streaming and Python / JavaScript SDKs. [Docs](https://docs.lokutor.com/) | 商业托管语音合成 API，支持 WebSocket 流式传输；需账号及预付余额 |
 | [SuperClonica Speech API](https://superclonica.com/en/speech-api) | REST TTS with limited free usage and paid plans, multiple languages, ogg/mp3/wav, streamed output, and stock and community voices. [Examples](https://github.com/superclonica/free-tts-api) | 提供有限免费额度与付费套餐的多语言 TTS API，支持流式输出、多种音频格式及预设和社区声音 |
 | [Giggy.ai](https://giggy.ai/) | Multilingual speech API offering text-to-speech and recorded-audio transcription, with batch and streaming endpoints. | 商业语音 API，可作语音 Agent 的输入与输出层；有限免费能力，流式服务按套餐计费 |
+| [Mira TTS (Voice Infra by miraiminds)](https://voice.miraiminds.co/models/text-to-speech) | Hosted TTS API for Hindi, Gujarati, Tamil, Telugu, English and Hinglish on OpenAI's `POST /v1/audio/speech` protocol, plus WebSocket streaming. 48 kHz PCM16 (WAV or raw PCM) or 8 kHz μ-law/A-law for phone lines. Served from its own GPUs in India. [Docs](https://docs.miraiminds.co/v2/tts-quickstart) | 商业托管 TTS API，支持印地语、古吉拉特语、泰米尔语、泰卢固语、英语及 Hinglish；兼容 OpenAI 语音接口，支持 WebSocket 流式及电话线路音频格式；需 API key，按量付费 |
 
 ---
 
