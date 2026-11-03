@@ -211,6 +211,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Gradium](https://gradium.ai/) | Streaming STT with built-in semantic VAD. End-of-turn probabilities every 80ms for voice agents. | 流式 STT，内置语义 VAD，80ms 话末概率 |
 | [Palatine Speech](https://speech.palatine.ru/) | Cloud speech API for transcription, speaker diarization, sentiment analysis, and AI summarization, with an OpenAI-compatible transcription endpoint. | 云端语音 API，支持转录、说话人分离、情感分析和 AI 摘要 |
 | [Velma Transcribe (Modulate)](https://www.modulate.ai/api/speech-to-text) | Batch and streaming speech-to-text API with diarization, emotion and accent detection. Commercial hosted API. | 商业托管的批量与流式语音识别 API，内置说话人分离、情绪与口音检测 |
+| [Lokutor Conv](https://docs.lokutor.com/sdk/stt.md) | Hosted speech-to-text on Lokutor's own model: one model for nine languages (en, es, ca, gl, eu, pt, fr, it, de), live WebSocket streaming with partial and final transcripts, and a recorded-clip endpoint. Python / JavaScript SDKs. | 商业托管语音识别 API，自有模型，单一模型覆盖 9 种语言，WebSocket 流式（含中间与最终结果）；需账号及预付余额 |
 
 ---
 
