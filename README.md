@@ -205,6 +205,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [OpenAI Whisper API](https://platform.openai.com/docs/guides/speech-to-text) | Cloud-based Whisper API. Easy integration, pay-as-you-go pricing. | 云端 Whisper，按需付费 |
 | [Azure Speech Services](https://azure.microsoft.com/products/ai-services/speech-to-text) | Microsoft's STT service. Multi-language support, custom model training. | 支持多语言，自定义模型 |
 | [Deepgram](https://deepgram.com/) | Enterprise-grade real-time STT API. Ultra-low latency, streaming transcription. | 超低延迟，流式转录 |
+| [Lokutor Conv 2.0](https://docs.lokutor.com) | Own speech-to-text model, nine languages (English, Spanish, Catalan, Galician, Basque, French, German, Portuguese, Italian). ElevenLabs-compatible REST endpoint and streaming WebSocket; Pipecat service. | 自研 STT，9 种语言，兼容 ElevenLabs 接口，提供流式 WebSocket |
 | [AssemblyAI](https://www.assemblyai.com/) | Speech AI API with Universal-Streaming model. Immutable transcription, intelligent endpointing. | 不可变转录，智能端点检测 |
 | [Speechmatics](https://www.speechmatics.com/) | Real-time ASR (Ursa 2) with sub-1s latency, strong accent/multilingual robustness, on-prem options. | 企业级实时 ASR，口音鲁棒，支持私有化 |
 | [Groq Whisper](https://groq.com/) | Whisper-large-v3/-turbo served on Groq LPUs for ultra-low-latency, very high-throughput transcription/translation. | Groq LPU 跑 Whisper，超低延迟高吞吐 |
@@ -272,6 +273,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Azure Speech Services](https://azure.microsoft.com/products/ai-services/text-to-speech) | Microsoft TTS with neural voices. Custom voice creation, SSML support. | 神经语音，自定义音色 |
 | [Cartesia](https://cartesia.ai/) | Real-time streaming TTS. Ultra-low latency, natural intonation. | 超低延迟流式 TTS |
 | [Deepgram Aura-2](https://deepgram.com/product/text-to-speech) | Real-time text-to-speech. Conversational voice quality. | 对话式语音，低延迟 |
+| [Lokutor Versa 2.0](https://lokutor.com/models) | Own text-to-speech model with REST and WebSocket streaming APIs, fixed named voices, multilingual including Catalan, Galician, Basque and Spanish. Pipecat service. | 自研 TTS，REST 与 WebSocket 流式接口，多语种（含加泰罗尼亚语、加利西亚语、巴斯克语） |
 | [voicetoinstrument.com](https://voicetoinstrument.com) | Convert voice to instrumental tracks using AI. Separate vocals and convert to instrument versions. | 语音转乐器音轨 |
 | [Hume AI Octave](https://www.hume.ai/) | First LLM-based "speech-language" TTS that understands context to set emotion/cadence; voice design from prompts. | 首个理解语义的 LLM-TTS，情感表现力强 |
 | [MiniMax (Hailuo) Speech](https://www.minimax.io/audio) | Speech-02/2.5/2.6 series, 40+ languages, 100+ voices + cloning; topped Speech Arena above OpenAI/ElevenLabs. | MiniMax 海螺，40+ 语种，多榜单第一 |
