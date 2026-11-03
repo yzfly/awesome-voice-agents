@@ -211,6 +211,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Gradium](https://gradium.ai/) | Streaming STT with built-in semantic VAD. End-of-turn probabilities every 80ms for voice agents. | 流式 STT，内置语义 VAD，80ms 话末概率 |
 | [Palatine Speech](https://speech.palatine.ru/) | Cloud speech API for transcription, speaker diarization, sentiment analysis, and AI summarization, with an OpenAI-compatible transcription endpoint. | 云端语音 API，支持转录、说话人分离、情感分析和 AI 摘要 |
 | [Velma Transcribe (Modulate)](https://www.modulate.ai/api/speech-to-text) | Batch and streaming speech-to-text API with diarization, emotion and accent detection. Commercial hosted API. | 商业托管的批量与流式语音识别 API，内置说话人分离、情绪与口音检测 |
+| [Saidwire](https://saidwire.com/developers) | Real-time English STT API for voice agents: WebSocket streaming compatible with Deepgram's API, plus a file endpoint compatible with OpenAI's transcription API. 35 ms median to final transcript after Finalize, measured in US East; add your network round trip. Plugins for Pipecat and LiveKit Agents. | 英语实时语音识别 API，兼容 Deepgram 与 OpenAI 转写接口，提供 Pipecat 和 LiveKit 插件 |
 
 ---
 
@@ -347,6 +348,7 @@ Talk to (and be talked to by) AI coding assistants like Claude Code, Cursor and 
 | [CallForMe](https://callforme.tel) | Hosted | Remote MCP server (`https://callforme.tel/mcp`, OAuth) that lets Claude, ChatGPT, Cursor or any MCP agent phone a business: works phone menus, waits on hold, asks the agent mid-call, returns transcript + answers. Paid per answered call; free demo line. | 让 Agent 替你给商家打电话（询价、订位、取消、排队等待），通话中可回问 Agent，返回通话记录与结构化答案 |
 | [Speakvora MCP](https://speakvora.com/guides/connect-speakvora-mcp-to-claude-code-and-cursor) | Hosted | Remote MCP server (`https://speakvora.com/api/mcp`, API key in a header) with three tools: `speak` (text to speech), `list_voices`, and `search_phrases` over a library of ready-made industry phrases. Pay-per-character API with a free allowance. | 托管的远程 MCP 服务（需 API key），提供 speak、list_voices、search_phrases 三个工具；按字符计费，提供有限免费额度 |
 | [/call-me](https://github.com/radres/call-me) | ![GitHub Repo stars](https://badgen.net/github/stars/radres/call-me) | Remote MCP server (`https://callmemcp.com/mcp`, no auth) that lets Claude Code, Codex, Gemini CLI, Cursor or any MCP agent ring your iPhone or Android phone, speak its question and return your spoken answer as text; the line can stay open for a back-and-forth, and it can text you instead. 90+ languages. Requires the /call-me phone app and its subscription. | Agent 卡住时直接给你的 iPhone 或 Android 手机打电话，读出问题并把你的语音回答转成文字带回；支持多轮通话和短信，90+ 种语言；需配套 App 及订阅 |
+| [saidwire-mcp](https://github.com/Saidwire/saidwire-mcp) | ![GitHub Repo stars](https://badgen.net/github/stars/Saidwire/saidwire-mcp) | MCP server for Claude, Cursor and other MCP clients: transcribe local audio files or public URLs to text, SRT/VTT subtitles or word timestamps with the Saidwire API (English). Python, `uvx saidwire-mcp`, MIT. | 将本地音频或公开链接转写为文字、字幕或词级时间戳 |
 
 ### Coding Agent Voice Tools | 编程 Agent 语音工具
 
