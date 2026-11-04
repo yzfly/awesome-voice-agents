@@ -281,6 +281,7 @@ OpenAI Whisper is the most powerful open-source speech recognition model, but do
 | [Lokutor](https://lokutor.com/) | Hosted real-time TTS API for voice agents, with WebSocket streaming and Python / JavaScript SDKs. [Docs](https://docs.lokutor.com/) | 商业托管语音合成 API，支持 WebSocket 流式传输；需账号及预付余额 |
 | [SuperClonica Speech API](https://superclonica.com/en/speech-api) | REST TTS with limited free usage and paid plans, multiple languages, ogg/mp3/wav, streamed output, and stock and community voices. [Examples](https://github.com/superclonica/free-tts-api) | 提供有限免费额度与付费套餐的多语言 TTS API，支持流式输出、多种音频格式及预设和社区声音 |
 | [Giggy.ai](https://giggy.ai/) | Multilingual speech API offering text-to-speech and recorded-audio transcription, with batch and streaming endpoints. | 商业语音 API，可作语音 Agent 的输入与输出层；有限免费能力，流式服务按套餐计费 |
+| [UberLLM](https://uberllm.dev/docs/media) | One API key for several hosted TTS models (ElevenLabs TTS v3, MiniMax Speech-02 HD, Chatterbox HD, Orpheus, Kokoro) and transcription (Whisper, ElevenLabs Scribe v2), plus the LLMs for the agent itself. OpenAI-compatible `/v1/audio/speech`. | 一个 Key 调用多家 TTS 与语音识别模型及 LLM；按量付费，预充值最低 $5，无免费额度 |
 
 ---
 
