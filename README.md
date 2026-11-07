@@ -436,6 +436,7 @@ High-star, general-purpose voice/speech projects: end-to-end toolkits, wake-word
 | [WhisperWriter](https://github.com/savbell/whisper-writer) | ![GitHub Repo stars](https://badgen.net/github/stars/savbell/whisper-writer) | Small Python dictation app: hotkey listens, then auto-types Whisper transcription into the active window. | 轻量 Python 听写，热键触发自动输入 |
 | [nerd-dictation](https://github.com/ideasman42/nerd-dictation) | ![GitHub Repo stars](https://badgen.net/github/stars/ideasman42/nerd-dictation) | Single-file, hackable offline speech-to-text for Linux using VOSK, with Python-based text post-processing. | 单文件可魔改的 Linux 离线听写 |
 | [wyoming-satellite](https://github.com/rhasspy/wyoming-satellite) | ![GitHub Repo stars](https://badgen.net/github/stars/rhasspy/wyoming-satellite) | Remote voice satellite (Wyoming protocol) for Home Assistant on Raspberry Pi with local wake-word detection. | Home Assistant 远程语音卫星，树莓派+本地唤醒词 |
+| [BAXY](https://github.com/REDSOULTM/BAXY) | ![GitHub Repo stars](https://badgen.net/github/stars/REDSOULTM/BAXY) | Local voice and text assistant with wake word that operates Windows in English and Spanish, with speech on sherpa-onnx (Parakeet, Supertonic) and its model on a dedicated 4 GB GPU. Code under MIT. | 在本地操作 Windows 的语音与文字助手，支持唤醒词、英语和西班牙语，需要 4 GB 独立显卡。代码采用 MIT 许可。 |
 
 ---
 
