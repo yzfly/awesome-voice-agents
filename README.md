@@ -65,6 +65,7 @@ Add WeChat | 添加江树微信: **1796060717**
 | [Gradbot](https://github.com/gradium-ai/gradbot) | ![GitHub Repo stars](https://badgen.net/github/stars/gradium-ai/gradbot) | Open-source Rust framework to prototype voice agents on Gradium TTS/STT APIs. Apache-2.0. | Rust 开源框架，基于 Gradium API 快速搭建语音智能体 |
 | [Unmute (SLNG)](https://github.com/slng-ai/unmute) | ![GitHub Repo stars](https://badgen.net/github/stars/slng-ai/unmute) | Declarative format for voice agents: define once in YAML and compile to Pipecat or LiveKit. Generated Python is yours — Dockerfile, pinned deps — and deploys to Pipecat Cloud, LiveKit Cloud, SLNG or your own infrastructure. | SLNG 出品，一次定义，编译到 Pipecat 或 LiveKit，生成代码归你所有 |
 | [feros](https://github.com/ferosai/feros) | ![GitHub Repo stars](https://badgen.net/github/stars/ferosai/feros) | Apache-2.0 voice-agent framework with a Rust runtime and a self-hosted control plane for telephony, integrations and operations. | Rust 语音 Agent 运行时与自托管控制台，覆盖电话接入、集成与运维 |
+| [Voxos](https://github.com/s-block/voxos) | ![GitHub Repo stars](https://badgen.net/github/stars/s-block/voxos) | Self-hosted voice-first AI agent on LiveKit with phone calls (Twilio, Telnyx), SMS, WhatsApp, memory, schedules and MCP tools. Several users can share one install. MIT. | 自托管语音优先 AI Agent，支持电话、短信、WhatsApp 和 MCP 工具，MIT 协议 |
 
 ### Specialized Solutions | 专用解决方案
 
